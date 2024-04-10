@@ -5,6 +5,13 @@
     "skipLibCheck": true
   },
   "extends": "../../tsconfig.json",
-  "include": ["config/**/*.ts", "config/**/*.tsx", "src/**/*.ts", "src/**/*.tsx", "vite.config.ts"],
+  "include": [
+    "config/**/*.ts",
+    "config/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "vite.config.ts",
+    "src/components/button/button.stories.mdx"
+  ],
   "exclude": ["**/node_modules/*"]
 }

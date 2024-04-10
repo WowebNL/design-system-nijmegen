@@ -7,6 +7,28 @@ Here's "Open Sans", for example.
 https://fontsource.org/fonts/open-sans
 */
 
-/* @import "~@fontsource/open-sans/400.css"; */
+@import "@fontsource/source-sans-pro/400.css";
+@import "@fontsource/source-sans-pro/600.css";
+@import "@fontsource/source-sans-pro/700.css";
 
-/* @import "~@fontsource/open-sans/700.css"; */
+@font-face {
+  font-display: swap;
+  font-family: "Oranda BT";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local(oranda bt bold),
+    url("../ordana/oranda_bold_bt.woff2") format("woff2"),
+    url("../ordana/oranda_bold_bt.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Oranda BT";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local(oranda bt roman),
+    url("../ordana/oranda_bt.woff2") format("woff2"),
+    url("../ordana/oranda_bt.woff") format("woff");
+}

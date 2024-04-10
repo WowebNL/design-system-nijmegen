@@ -18,5 +18,8 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:nl-design-system/example.git"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-pro": "5.0.8"
   }
 }

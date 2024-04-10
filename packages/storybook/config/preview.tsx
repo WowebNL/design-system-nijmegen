@@ -53,7 +53,7 @@ const preview: Preview = {
     },
     options: {
       storySort: {
-        order: ['Nijmegen', 'Components', 'Templates'],
+        order: ['Docs', 'Components', 'Templates'],
       },
       panelPosition: 'right',
     },

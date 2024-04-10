@@ -36,6 +36,7 @@
     "@storybook/addon-interactions": "7.6.17",
     "@storybook/addon-links": "7.6.17",
     "@storybook/addon-viewport": "7.6.17",
+    "@storybook/blocks": "8.0.6",
     "@storybook/preset-scss": "1.0.3",
     "@storybook/react": "7.6.17",
     "@storybook/react-vite": "7.6.17",
@@ -60,5 +61,8 @@
     "vite-plugin-html": "3.2.2",
     "vite-plugin-markdown": "2.2.0",
     "webpack": "5.90.3"
+  },
+  "dependencies": {
+    "clsx": "2.1.0"
   }
 }

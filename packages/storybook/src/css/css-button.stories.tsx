@@ -1,15 +1,19 @@
 /* @license CC0-1.0 */
 
-import readme from '@example/components-css/button/README.md?raw';
-import { ExampleButton } from '@example/web-components-react';
+import readme from '@gemeentenijmegen/components-css/button/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
 import { PropsWithChildren } from 'react';
+import '@utrecht/components/button/css/index.scss';
 
-const Button = ({ children }: PropsWithChildren<{}>) => <ExampleButton>{children}</ExampleButton>;
+const Button = ({ children }: PropsWithChildren<{}>) => (
+  <button className="utrecht-button" type="button">
+    {children}
+  </button>
+);
 
 const meta = {
-  title: 'Web Component/Button',
-  id: 'web-component-button',
+  title: 'Components/Button',
+  id: 'css-button',
   component: Button,
   argTypes: {
     children: {
@@ -23,7 +27,7 @@ const meta = {
     },
   },
   args: {
-    children: 'Opslaan en verder',
+    children: 'Voorbeeld button',
   },
   tags: ['autodocs'],
   parameters: {

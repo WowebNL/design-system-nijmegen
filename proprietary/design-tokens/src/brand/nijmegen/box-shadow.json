@@ -1,0 +1,39 @@
+{
+  "nijmegen": {
+    "box-shadow": {
+      "sm": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "6",
+          "spread": "0",
+          "color": "{nijmegen.color.dark.alpha.100}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "md": {
+        "value": {
+          "x": "0",
+          "y": "8",
+          "blur": "16",
+          "spread": "0",
+          "color": "{nijmegen.color.dark.alpha.100}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "lg": {
+        "value": {
+          "x": "0",
+          "y": "16",
+          "blur": "48",
+          "spread": "0",
+          "color": "{nijmegen.color.dark.alpha.100}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  }
+}

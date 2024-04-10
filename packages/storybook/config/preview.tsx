@@ -1,6 +1,6 @@
-import '@example/design-tokens/dist/index.css';
-import '@example/font/src/index.scss';
-import { defineCustomElements } from '@example/web-components-stencil/loader/index.js';
+import '@gemeentenijmegen/design-tokens/dist/index.css';
+import '@gemeentenijmegen/font/src/index.scss';
+import { defineCustomElements } from '@gemeentenijmegen/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 
 defineCustomElements();
@@ -15,7 +15,7 @@ const preview: Preview = {
       storyContext.parameters['args'] = storyContext.args;
 
       return (
-        <div className="example-theme">
+        <div className="nijmegen-theme">
           <Story />
         </div>
       );
@@ -52,6 +52,9 @@ const preview: Preview = {
       },
     },
     options: {
+      storySort: {
+        order: ['Nijmegen', 'Components', 'Templates'],
+      },
       panelPosition: 'right',
     },
   },

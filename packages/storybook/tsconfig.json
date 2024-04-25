@@ -11,7 +11,8 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "vite.config.ts",
-    "src/components/button/button.stories.mdx"
+    "src/components/button/button.stories.mdx",
+    "src/components/button/button.stories.jsx"
   ],
   "exclude": ["**/node_modules/*"]
 }

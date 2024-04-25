@@ -4,10 +4,6 @@ export const argTypes = {
   children: {
     name: 'Content',
     description: 'Button text',
-    type: {
-      name: 'string',
-      required: true,
-    },
     defaultValue: '',
   },
   appearance: {
@@ -15,10 +11,6 @@ export const argTypes = {
     description: 'Button variations',
     control: { type: 'select' },
     options: ['Default', 'Primary', 'Secondary', 'Subtle'],
-    type: {
-      name: 'function',
-      required: false,
-    },
     table: {
       type: {
         summary: ['string'],
@@ -45,12 +37,6 @@ export const defaultArgs = {
   state: 'Default',
   icon: 'None',
 };
-
-// const Button = ({ children }: PropsWithChildren<{}>) => (
-//   <button className="utrecht-button" type="button">
-//     {children}
-//   </button>
-// );
 
 export const Button = ({ children, appearance = defaultArgs.appearance, state = defaultArgs.state, ...restProps }) => {
   return (

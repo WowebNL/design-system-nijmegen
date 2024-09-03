@@ -1,0 +1,148 @@
+{
+  "utrecht": {
+    "data-list": {
+      "font-family": {
+        "value": "{nijmegen.document.font-family}",
+        "type": "fontFamilies"
+      },
+      "item-value": {
+        "font-weight": {
+          "value": "{nijmegen.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "row": {
+          "padding-block-end": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          }
+        },
+        "padding-block-end": {
+          "value": "{nijmegen.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{nijmegen.space.block.ant}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        }
+      },
+      "item-key": {
+        "font-weight": {
+          "value": "{nijmegen.document.strong.font-weight}",
+          "type": "fontWeights"
+        },
+        "row": {
+          "padding-block-end": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          }
+        },
+        "padding-block-end": {
+          "value": "{nijmegen.space.block.ant}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{nijmegen.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        }
+      },
+      "item": {
+        "border-width": {
+          "type": "borderWidth",
+          "value": "{nijmegen.border-width.sm}"
+        },
+        "border-color": {
+          "value": "{nijmegen.line.border-color}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{nijmegen.document.color}",
+          "type": "color"
+        }
+      },
+      "font-size": {
+        "value": "{nijmegen.document.font-size}",
+        "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "{nijmegen.document.line-height}",
+        "type": "lineHeights"
+      },
+      "item-action": {
+        "row": {
+          "padding-block-end": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{nijmegen.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{nijmegen.space.inline.snail}",
+            "type": "spacing"
+          }
+        },
+        "padding-block-end": {
+          "value": "{nijmegen.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{nijmegen.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{nijmegen.space.inline.snail}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

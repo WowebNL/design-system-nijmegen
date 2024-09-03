@@ -1,0 +1,20 @@
+{
+  "utrecht": {
+    "form-field": {
+      "invalid": {
+        "border-inline-start-color": {
+          "value": "{nijmegen.feedback.error-default.border-color}",
+          "type": "color"
+        },
+        "border-inline-start-width": {
+          "value": "{nijmegen.border-width.md}",
+          "type": "borderWidth"
+        },
+        "padding-inline-start": {
+          "value": "{nijmegen.space.inline.mouse}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

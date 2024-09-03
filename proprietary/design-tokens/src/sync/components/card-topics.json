@@ -1,0 +1,90 @@
+{
+  "card-topics": {
+    "base": {
+      "background-color": {
+        "value": "{nijmegen.color.background-default}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{nijmegen.color.grijs.100}",
+        "type": "color"
+      },
+      "border-radius": {
+        "value": "{nijmegen.border-radius.md}",
+        "type": "borderRadius"
+      },
+      "border-width": {
+        "value": "{nijmegen.border-width.sm}",
+        "type": "borderWidth"
+      },
+      "text-color": {
+        "value": "{nijmegen.color.zwart}",
+        "type": "color"
+      },
+      "font-family": {
+        "value": "{nijmegen.typography.font-family.secondary}",
+        "type": "fontFamilies"
+      },
+      "font-size": {
+        "value": "{nijmegen.typography.font-size.sml}",
+        "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "{nijmegen.typography.line-height.md}",
+        "type": "lineHeights"
+      }
+    },
+    "content": {
+      "padding": {
+        "inline": {
+          "value": "{nijmegen.space.block.rabbit}",
+          "type": "spacing"
+        },
+        "block-start": {
+          "value": "{nijmegen.space.block.rabbit}",
+          "type": "spacing"
+        },
+        "block-end": {
+          "value": "{nijmegen.space.block.cat}",
+          "type": "spacing"
+        }
+      },
+      "row": {
+        "block-gap": {
+          "value": "{nijmegen.space.block.mouse}",
+          "type": "spacing"
+        }
+      }
+    },
+    "hover": {
+      "text-decoration": {
+        "value": "{nijmegen.hover.text-decoration}",
+        "type": "textDecoration"
+      },
+      "text-color": {
+        "value": "{nijmegen.color.groen.500}",
+        "type": "color"
+      }
+    },
+    "focus-visible": {
+      "border-color": {
+        "value": "{nijmegen.color.groen.900}",
+        "type": "color"
+      },
+      "border-style": {
+        "value": "dotted",
+        "type": "border"
+      },
+      "border-width": {
+        "value": "{nijmegen.border-width.md}",
+        "type": "borderWidth"
+      }
+    },
+    "title": {
+      "font-size": {
+        "value": "{nijmegen.typography.font-size.xl}",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

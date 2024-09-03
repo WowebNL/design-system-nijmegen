@@ -1,0 +1,126 @@
+{
+  "nijmegen": {
+    "card-event": {
+      "content": {
+        "padding": {
+          "inline": {
+            "value": "{nijmegen.space.inline.rabbit}",
+            "type": "spacing"
+          },
+          "block-start": {
+            "value": "{nijmegen.space.block.rabbit}",
+            "type": "spacing"
+          },
+          "block-end": {
+            "value": "{nijmegen.space.block.cat}",
+            "type": "spacing"
+          }
+        },
+        "row": {
+          "block-gap": {
+            "value": "{nijmegen.space.block.mouse}",
+            "type": "spacing"
+          }
+        }
+      },
+      "background-color": {
+        "value": "{nijmegen.color.background-default}",
+        "type": "color"
+      },
+      "title": {
+        "color": {
+          "value": "{nijmegen.color.zwart}",
+          "type": "color"
+        },
+        "hover": {
+          "color": {
+            "value": "{nijmegen.color.groen.700}",
+            "type": "color"
+          }
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.semi-bold}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{utrecht.heading-3.line-height}",
+          "type": "fontHeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.lg}",
+          "type": "fintSizes"
+        }
+      },
+      "date": {
+        "color": {
+          "value": "{nijmegen.color.grijs.500}",
+          "type": "color"
+        },
+        "font-family": {
+          "value": "{nijmegen.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "place": {
+        "color": {
+          "value": "{nijmegen.color.grijs.700}",
+          "type": "colore"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "intro-text": {
+        "color": {
+          "value": "{nijmegen.color.grijs.500}",
+          "type": "color"
+        },
+        "font-family": {
+          "value": "{nijmegen.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "icon": {
+        "color": {
+          "value": "{nijmegen.color.grijs.700}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{nijmegen.color.grijs.200}",
+          "type": "color"
+        },
+        "radius": {
+          "value": "{nijmegen.border-radius.sm}",
+          "type": "borderRadius"
+        }
+      },
+      "font-family": {
+        "value": "{nijmegen.typography.font-family.secondary}",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

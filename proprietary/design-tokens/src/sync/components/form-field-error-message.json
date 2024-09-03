@@ -1,0 +1,36 @@
+{
+  "utrecht": {
+    "form-field-error-message": {
+      "icon": {
+        "size": {
+          "type": "sizing",
+          "value": "{nijmegen.icon.functional.size}"
+        },
+        "margin-inline-end": {
+          "value": "{nijmegen.space.inline.beetle}",
+          "type": "spacing"
+        }
+      },
+      "color": {
+        "type": "color",
+        "value": "{nijmegen.feedback.error-default.color}"
+      },
+      "font-family": {
+        "value": "{nijmegen.document.font-family}",
+        "type": "fontFamilies"
+      },
+      "font-size": {
+        "value": "{nijmegen.document.font-size}",
+        "type": "fontSizes"
+      },
+      "font-weight": {
+        "value": "{nijmegen.document.font-weight}",
+        "type": "fontWeights"
+      },
+      "line-height": {
+        "value": "{nijmegen.document.line-height}",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

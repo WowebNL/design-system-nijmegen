@@ -3,7 +3,7 @@
     "form-field": {
       "invalid": {
         "border-inline-start-color": {
-          "value": "{nijmegen.feedback.error-default.border-color}",
+          "value": "{nijmegen.color.donkerrood.100}",
           "type": "color"
         },
         "border-inline-start-width": {

@@ -241,11 +241,11 @@
           "type": "color"
         },
         "border-color": {
-          "value": "{nijmegen.feedback.error-default.border-color}",
+          "value": "{nijmegen.color.grijs.100}",
           "type": "color"
         },
         "color": {
-          "value": "{nijmegen.feedback.error-default.color}",
+          "value": "{nijmegen.color.rood.400}",
           "type": "color"
         },
         "border-width": {
@@ -287,7 +287,7 @@
       },
       "error-default": {
         "background-color": {
-          "value": "{nijmegen.color.donkerrood.400}",
+          "value": "{nijmegen.color.rood.100}",
           "type": "color"
         }
       },

@@ -31,7 +31,7 @@
         "disabled": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.color.grijs.50}"
+            "value": "{nijmegen.color.grijs.200}"
           },
           "border-color": {
             "value": "transparent",
@@ -79,7 +79,7 @@
         "hover": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.color.grijs.50}"
+            "value": "{nijmegen.color.grijs.200}"
           },
           "border-color": {
             "type": "color",
@@ -105,7 +105,7 @@
         "disabled": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.color.grijs.50}"
+            "value": "{nijmegen.color.grijs.200}"
           },
           "border-color": {
             "type": "color",
@@ -225,7 +225,7 @@
         "disabled": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.color.grijs.50}"
+            "value": "{nijmegen.color.grijs.200}"
           },
           "border-color": {
             "type": "color",
@@ -287,7 +287,7 @@
       },
       "disabled": {
         "background-color": {
-          "value": "{nijmegen.color.grijs.50}",
+          "value": "{nijmegen.color.grijs.200}",
           "type": "color"
         },
         "border-color": {
@@ -315,7 +315,7 @@
       },
       "hover": {
         "background-color": {
-          "value": "{nijmegen.color.grijs.50}",
+          "value": "{nijmegen.color.grijs.200}",
           "type": "color"
         },
         "border-color": {

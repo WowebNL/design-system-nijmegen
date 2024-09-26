@@ -16,7 +16,6 @@
     "components/card-topics",
     "components/checkbox",
     "components/checkbox-group",
-    "components/counter-badge",
     "components/data-list",
     "components/email-input",
     "components/form-field",
@@ -38,13 +37,11 @@
     "components/separator",
     "components/sidenav",
     "components/skip-link",
-    "components/status-badge",
     "components/table",
     "components/textarea",
     "components/textbox",
     "components/toolbar-button",
     "components/unordered-list",
-    "components/link-list",
-    "components/header"
+    "components/link-list"
   ]
 }

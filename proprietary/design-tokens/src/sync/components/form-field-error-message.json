@@ -13,7 +13,7 @@
       },
       "color": {
         "type": "color",
-        "value": "{nijmegen.feedback.error-default.color}"
+        "value": "{nijmegen.color.donkerrood.100}"
       },
       "font-family": {
         "value": "{nijmegen.document.font-family}",

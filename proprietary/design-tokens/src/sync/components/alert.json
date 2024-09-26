@@ -45,11 +45,11 @@
       },
       "informative": {
         "background-color": {
-          "value": "{nijmegen.feedback.info-default.background-color}",
+          "value": "{nijmegen.color.blauw.100}",
           "type": "color"
         },
         "border-color": {
-          "value": "{nijmegen.feedback.info-default.border-color}",
+          "value": "{nijmegen.color.donkerblauw.100}",
           "type": "color"
         },
         "color": {
@@ -60,7 +60,7 @@
       "icon": {
         "informative": {
           "color": {
-            "value": "{nijmegen.feedback.info-default.color}",
+            "value": "{nijmegen.color.donkerblauw.100}",
             "type": "color"
           }
         },
@@ -82,13 +82,13 @@
         },
         "positive": {
           "color": {
-            "value": "{nijmegen.feedback.success-default.color}",
+            "value": "{nijmegen.color.lichtgroen.500}",
             "type": "color"
           }
         },
         "negative": {
           "color": {
-            "value": "{nijmegen.feedback.error-default.color}",
+            "value": "{nijmegen.color.donkerrood.100}",
             "type": "color"
           }
         },
@@ -109,7 +109,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "{nijmegen.feedback.error-default.border-color}",
+          "value": "{nijmegen.color.donkerrood.100}",
           "type": "color"
         },
         "color": {
@@ -119,11 +119,11 @@
       },
       "positive": {
         "background-color": {
-          "value": "{nijmegen.feedback.success-default.background-color}",
+          "value": "{nijmegen.color.groen.100}",
           "type": "color"
         },
         "border-color": {
-          "value": "{nijmegen.feedback.success-default}",
+          "value": "{nijmegen.color.lichtgroen.500}",
           "type": "color"
         },
         "color": {
@@ -133,11 +133,11 @@
       },
       "warning": {
         "background-color": {
-          "value": "{nijmegen.feedback.warning-default.background-color}",
+          "value": "{nijmegen.color.oranje.100}",
           "type": "color"
         },
         "border-color": {
-          "value": "{nijmegen.feedback.warning-default.border-color}",
+          "value": "{nijmegen.color.oranje.500}",
           "type": "color"
         },
         "color": {

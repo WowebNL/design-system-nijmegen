@@ -100,7 +100,7 @@
         },
         "expanded": {
           "background-color": {
-            "value": "{nijmegen.color.grijs.50}",
+            "value": "{nijmegen.color.grijs.100}",
             "type": "color"
           },
           "border-color": {

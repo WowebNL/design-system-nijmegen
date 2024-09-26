@@ -10,7 +10,7 @@
         "type": "color"
       },
       "font-family": {
-        "value": "{common.typography.font-family-primary}",
+        "value": "{nijmegen.typography.font-family.secondary}",
         "type": "fontFamilies"
       },
       "font-size": {
@@ -91,18 +91,6 @@
       }
     },
     "active": {
-      "background-color": {
-        "value": "{common.colors.background-active}",
-        "type": "color"
-      },
-      "text-color": {
-        "value": "{common.colors.primary}",
-        "type": "color"
-      },
-      "border-color": {
-        "value": "{common.colors.primary}",
-        "type": "color"
-      },
       "border-style": {
         "value": "solid",
         "type": "border"

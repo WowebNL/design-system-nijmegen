@@ -28,7 +28,7 @@
     "components/heading.tokens",
     "components/icon-only-button.tokens",
     "components/link.tokens",
-    "components/link-list",
+    "components/link-list.tokens",
     "components/ordered-list.tokens",
     "components/pagination.tokens",
     "components/paragraph.tokens",

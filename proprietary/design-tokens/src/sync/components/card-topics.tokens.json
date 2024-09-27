@@ -34,28 +34,6 @@
         "type": "lineHeights"
       }
     },
-    "content": {
-      "padding": {
-        "inline": {
-          "value": "{nijmegen.space.block.rabbit}",
-          "type": "spacing"
-        },
-        "block-start": {
-          "value": "{nijmegen.space.block.rabbit}",
-          "type": "spacing"
-        },
-        "block-end": {
-          "value": "{nijmegen.space.block.cat}",
-          "type": "spacing"
-        }
-      },
-      "row": {
-        "block-gap": {
-          "value": "{nijmegen.space.block.mouse}",
-          "type": "spacing"
-        }
-      }
-    },
     "hover": {
       "text-decoration": {
         "value": "{nijmegen.hover.text-decoration}",
@@ -84,6 +62,32 @@
       "font-size": {
         "value": "{nijmegen.typography.font-size.xl}",
         "type": "fontSizes"
+      }
+    }
+  },
+  "nijmegen": {
+    "card-topics": {
+      "content": {
+        "padding": {
+          "inline": {
+            "value": "{nijmegen.space.block.rabbit}",
+            "type": "spacing"
+          },
+          "block-start": {
+            "value": "{nijmegen.space.block.rabbit}",
+            "type": "spacing"
+          },
+          "block-end": {
+            "value": "{nijmegen.space.block.cat}",
+            "type": "spacing"
+          }
+        },
+        "row": {
+          "block-gap": {
+            "value": "{nijmegen.space.block.mouse}",
+            "type": "spacing"
+          }
+        }
       }
     }
   }

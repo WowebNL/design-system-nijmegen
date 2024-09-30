@@ -2,12 +2,16 @@
   "nijmegen": {
     "typography": {
       "font-size": {
+        "xs": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
         "sm": {
           "value": "16px",
           "type": "fontSizes"
         },
         "md": {
-          "value": "20px",
+          "value": "18px",
           "type": "fontSizes"
         },
         "lg": {
@@ -24,14 +28,6 @@
         },
         "3xl": {
           "value": "48px",
-          "type": "fontSizes"
-        },
-        "sml": {
-          "value": "18px",
-          "type": "fontSizes"
-        },
-        "xs": {
-          "value": "14px",
           "type": "fontSizes"
         }
       },
@@ -656,16 +652,28 @@
       }
     },
     "border-radius": {
-      "sm": {
+      "xs": {
         "value": "4px",
         "type": "borderRadius"
       },
+      "sm": {
+        "value": "12px",
+        "type": "borderRadius"
+      },
       "md": {
-        "value": "8px",
+        "value": "16px",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "16px",
+        "value": "32px",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "40px",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "64px",
         "type": "borderRadius"
       },
       "round": {

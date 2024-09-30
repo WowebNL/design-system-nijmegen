@@ -163,7 +163,7 @@
       },
       "border-radius": {
         "type": "borderRadius",
-        "value": "{nijmegen.border-radius.md}"
+        "value": "{nijmegen.border-radius.sm}"
       },
       "border-width": {
         "type": "borderWidth",

@@ -10,7 +10,7 @@
         "type": "color"
       },
       "border-radius": {
-        "value": "{nijmegen.border-radius.sm}",
+        "value": "{nijmegen.border-radius.xs}",
         "type": "borderRadius"
       },
       "content": {

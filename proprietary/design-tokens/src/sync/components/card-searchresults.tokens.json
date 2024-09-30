@@ -52,7 +52,7 @@
             "type": "fontFamilies"
           },
           "font-size": {
-            "value": "{nijmegen.typography.font-size.mg}",
+            "value": "{nijmegen.typography.font-size.md}",
             "type": "fontSizes"
           },
           "font-weight": {

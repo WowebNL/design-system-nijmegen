@@ -396,6 +396,10 @@
       "2xl": {
         "value": "64",
         "type": "borderRadius"
+      },
+      "round": {
+        "value": "999",
+        "type": "borderRadius"
       }
     }
   },

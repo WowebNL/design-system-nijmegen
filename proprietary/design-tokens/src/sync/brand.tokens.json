@@ -651,36 +651,6 @@
         }
       }
     },
-    "border-radius": {
-      "xs": {
-        "value": "4px",
-        "type": "borderRadius"
-      },
-      "sm": {
-        "value": "12px",
-        "type": "borderRadius"
-      },
-      "md": {
-        "value": "16px",
-        "type": "borderRadius"
-      },
-      "lg": {
-        "value": "32px",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "40px",
-        "type": "borderRadius"
-      },
-      "2xl": {
-        "value": "64px",
-        "type": "borderRadius"
-      },
-      "round": {
-        "value": "999px",
-        "type": "borderRadius"
-      }
-    },
     "border-width": {
       "sm": {
         "value": "1px",

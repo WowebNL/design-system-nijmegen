@@ -37,7 +37,7 @@
           "destination": "root.css",
           "format": "css/variables",
           "options": {
-            "outputReferences": true
+            "outputReferences": false
           }
         }
       ]
@@ -51,7 +51,7 @@
           "format": "css/variables",
           "options": {
             "selector": ".nijmegen-theme",
-            "outputReferences": true
+            "outputReferences": false
           }
         }
       ]
@@ -64,7 +64,7 @@
           "destination": "_variables.scss",
           "format": "scss/variables",
           "options": {
-            "outputReferences": true
+            "outputReferences": false
           }
         }
       ]
@@ -92,7 +92,7 @@
           "destination": "variables.less",
           "format": "less/variables",
           "options": {
-            "outputReferences": true
+            "outputReferences": false
           }
         }
       ]

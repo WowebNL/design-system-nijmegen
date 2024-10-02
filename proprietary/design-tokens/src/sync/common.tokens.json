@@ -358,14 +358,6 @@
         }
       }
     },
-    "color-background-default": {
-      "value": "{nijmegen.color.white}",
-      "type": "color"
-    },
-    "color-background-subdued": {
-      "value": "{nijmegen.color.grijs.200}",
-      "type": "color"
-    },
     "hover": {
       "text-decoration": {
         "value": "underline",

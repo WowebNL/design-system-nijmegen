@@ -34,4 +34,4 @@ jobs:
       - name: Build tokens
         run: |
           cd proprietary/design-tokens
-          pnpm build:stayle-dictionary
+          pnpm build:style-dictionary

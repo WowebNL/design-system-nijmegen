@@ -3,7 +3,7 @@
     "card-searchresults": {
       "base": {
         "background-color": {
-          "value": "{nijmegen.color-background-default}",
+          "value": "{nijmegen.color.white}",
           "type": "color"
         },
         "border-width": {

@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  install:
+  test-design-tokens:
     runs-on: ubuntu-latest
 
     steps:

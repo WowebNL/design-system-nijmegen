@@ -30,13 +30,19 @@
     "@gemeentenijmegen/font": "workspace:*",
     "@gemeentenijmegen/web-components-react": "workspace:*",
     "@gemeentenijmegen/web-components-stencil": "workspace:*",
+    "@mdx-js/react": "3.0.1",
     "@storybook/addon-a11y": "7.6.17",
     "@storybook/addon-actions": "7.6.17",
+    "@storybook/addon-controls": "7.6.20",
     "@storybook/addon-docs": "7.6.17",
+    "@storybook/addon-essentials": "7.6.17",
     "@storybook/addon-interactions": "7.6.17",
     "@storybook/addon-links": "7.6.17",
+    "@storybook/addon-themes": "7.6.16",
     "@storybook/addon-viewport": "7.6.17",
-    "@storybook/blocks": "8.0.6",
+    "@storybook/addons": "7.6.17",
+    "@storybook/blocks": "7.6.16",
+    "@storybook/mdx2-csf": "1.1.0",
     "@storybook/preset-scss": "1.0.3",
     "@storybook/react": "7.6.17",
     "@storybook/react-vite": "7.6.17",
@@ -46,10 +52,13 @@
     "@types/react-dom": "18.2.20",
     "@utrecht/components": "3.0.1-alpha.27",
     "@vitejs/plugin-react": "4.2.1",
+    "@whitespace/storybook-addon-html": "6.1.1",
     "babel-loader": "9.1.3",
     "css-loader": "6.10.0",
+    "prettier": "3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "remark-gfm": "3.0.0",
     "require-from-string": "2.0.2",
     "rimraf": "5.0.5",
     "sass": "1.71.1",
@@ -63,6 +72,7 @@
     "webpack": "5.90.3"
   },
   "dependencies": {
+    "@storybook/core": "8.3.4",
     "clsx": "2.1.0"
   }
 }

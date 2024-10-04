@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 export const argTypes = {
-  children: {
+  content: {
     name: 'Content',
     description: 'Button text',
     defaultValue: '',
@@ -23,22 +23,16 @@ export const argTypes = {
     control: { type: 'select' },
     options: ['Default', 'Active', 'Hover', 'Hover + focus-visible', 'Focus', 'Focus-visible'],
   },
-  icon: {
-    name: 'Icon',
-    description: 'Icon',
-    control: { type: 'select' },
-    options: ['None', 'Start', 'End'],
-  },
 };
 
+// TODO Icon implementation
 export const defaultArgs = {
-  children: 'Button text',
+  content: 'Button text',
   appearance: 'Default',
   state: 'Default',
-  icon: 'None',
 };
 
-export const Button = ({ children, appearance = defaultArgs.appearance, state = defaultArgs.state, ...restProps }) => {
+export const Button = ({ content, appearance = defaultArgs.appearance, state = defaultArgs.state, ...restProps }) => {
   return (
     <button
       className={clsx('utrecht-button', {
@@ -54,7 +48,7 @@ export const Button = ({ children, appearance = defaultArgs.appearance, state = 
       type="button"
       {...restProps}
     >
-      {children}
+      {content}
     </button>
   );
 };

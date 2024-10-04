@@ -55,8 +55,27 @@ const preview: Preview = {
       storySort: {
         order: ['Docs', 'Components', 'Templates'],
       },
-      panelPosition: 'right',
     },
+    // TODO: Enable html render of code preview
+    // docs: {
+    //   transformSource: (src: string, storyContext: StoryContext<any>): string => {
+    //     // Ensure valid HTML in the Preview source
+    //     const render =
+    //       typeof storyContext.component === 'function'
+    //         ? storyContext.component
+    //         : typeof storyContext.component?.render === 'function'
+    //         ? storyContext.component?.render
+    //         : null;
+
+    //     if (render) {
+    //       return prettier.format(ReactDOMServer.renderToStaticMarkup(render(storyContext.args)), {
+    //         parser: 'babel',
+    //         plugins: [prettierBabel],
+    //       });
+    //     }
+    //     return src;
+    //   },
+    // }
   },
 };
 

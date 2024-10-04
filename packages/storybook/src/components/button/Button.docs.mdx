@@ -1,0 +1,30 @@
+{/* Button.docs.mdx */}
+import { Canvas, Controls, Markdown, Meta, Primary } from '@storybook/addon-docs';
+import * as ButtonStories from './Button.stories';
+import README from './readme.md?raw';
+
+<Meta of={ButtonStories} />
+
+<Markdown>{README}</Markdown>
+<Primary />
+<Controls />
+
+## Variaties
+
+### Primair
+
+Een Primaire knop is bedoeld voor de allerbelangrijkste handeling op het scherm in ons websites. Deze handeling is meestal verplicht of essentieel voor de gebruiker. Primaire knoppen zijn ontworpen om de cruciale handeling duidelijk te benadrukken. Daarom is het beter om te voorkomen dat er op één scherm meerdere Primaire knoppen staan. Voor minder belangrijke handelingen kun je overwegen om in plaats daarvan secundaire of aanvullende knoppen te gebruiken binnen ons design systeem.
+
+<Canvas of={ButtonStories.Primary} sourceState="none" />
+
+### Secundaire
+
+Secundaire knoppen worden gebruikt voor handelingen die niet verplicht of essentieel zijn voor de gebruiker. Vaak zijn er op schermen meerdere secundaire knoppen naast één primaire knop binnen ons websites.
+
+<Canvas of={ButtonStories.Secondary} sourceState="none" />
+
+### Aanvullende
+
+Aanvullende knoppen kunnen gebruikt worden voor vergelijkbare handelingen als secundaire knoppen. Echter, aanvullende knoppen zijn bedoeld voor acties die opzettelijk minder zichtbaar moeten zijn voor de gebruiker. Dit kan onder andere annulerings- en afwijsfunctionaliteiten omvatten. Let op! Omdat aanvullende knoppen geen randen hebben, is een bijbehorend pictogram nodig om ze duidelijk te onderscheiden van links en passieve tekstelementen binnen ons websites.
+
+<Canvas of={ButtonStories.Subtle} sourceState="none" />

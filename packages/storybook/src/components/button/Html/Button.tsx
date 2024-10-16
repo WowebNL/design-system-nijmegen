@@ -50,7 +50,7 @@ export const defaultArgs = {
 };
 
 export const ButtonStory = ({
-  children,
+  children = '',
   appearance = defaultArgs.appearance,
   state = defaultArgs.state,
   disabled = defaultArgs.disabled,

@@ -1,6 +1,9 @@
 name: Deploy on GitHub Pages
 
 on:
+  push:
+    branches:
+      - woweb-staging
   workflow_dispatch:
 
 jobs:

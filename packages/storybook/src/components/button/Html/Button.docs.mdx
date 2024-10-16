@@ -1,0 +1,30 @@
+{/* Button.docs.mdx */}
+import { Canvas, Controls, Markdown, Meta, Primary, Source } from '@storybook/addon-docs';
+import * as ButtonStories from './Button.stories';
+import README from './../readme.md?raw';
+
+<Meta of={ButtonStories} />
+
+# Button Component implementation in HTML/CSS
+
+## Component suported arguments
+<Primary />
+<Controls />
+
+## Example implementation
+<Source language="html" code={`
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <title>Example page</title>
+    <link rel="stylesheet" href="node_modules/@utrecht/button-css/dist/index.css" />
+    <link rel="stylesheet" href="node_modules/@gemeentenijmegen/design-tokens/dist/index.css'" />
+    <link rel="stylesheet" href="node_modules/@gemeentenijmegen/font/dist/index.css'" />
+  </head>
+  <body>
+    <div class="nijmegen-theme">
+      <button class="utrecht-button" type="button">Button</button>
+    </div>
+  </body>
+</html>
+`} />

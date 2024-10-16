@@ -1,14 +1,15 @@
 /* @license CC0-1.0 */
 import type { Meta, StoryObj } from '@storybook/react';
-import { argTypes, Button, defaultArgs } from './story-template';
+import { Button } from '@utrecht/component-library-react';
+import { argTypes } from './../story-template';
 import '@utrecht/components/button/css/index.scss';
 
 const meta = {
-  title: 'Components/Button',
+  title: 'Components/Button/React Implementation',
   id: 'button',
   component: Button,
   argTypes: argTypes,
-  args: defaultArgs,
+  args: {},
   parameters: {
     status: {
       type: 'WORK IN PROGRESS',
@@ -20,11 +21,11 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: { content: 'Button', appearance: 'Default' },
+  args: { children: 'Button' },
 };
 
 export const Primary: Story = {
-  args: { content: 'Primaire button', appearance: 'Primary' },
+  args: { children: 'Primaire button', appearance: 'primary-action-button' },
   argTypes: {
     appearance: {
       table: {
@@ -35,7 +36,7 @@ export const Primary: Story = {
 };
 
 export const Secondary: Story = {
-  args: { content: 'Secundaire button', appearance: 'Secondary' },
+  args: { children: 'Secundaire button', appearance: 'secondary-action-button' },
   argTypes: {
     appearance: {
       table: {
@@ -46,7 +47,7 @@ export const Secondary: Story = {
 };
 
 export const Subtle: Story = {
-  args: { content: 'Aanvullende button', appearance: 'Subtle' },
+  args: { children: 'Aanvullende button', appearance: 'subtle-button' },
   argTypes: {
     appearance: {
       table: {

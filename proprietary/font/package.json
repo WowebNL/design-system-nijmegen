@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-alpha.0",
-  "author": "Community for NL Design System",
+  "version": "0.0.1",
+  "author": "gemeente Nijmegen",
   "description": "Font assets",
   "license": "SEE LICENSE IN LICENSE.md",
   "name": "@gemeentenijmegen/font",

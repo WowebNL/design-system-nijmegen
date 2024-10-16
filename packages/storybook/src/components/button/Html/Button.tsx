@@ -10,54 +10,51 @@ export const argTypes = {
     name: 'Variation',
     description: 'Button variations',
     control: { type: 'select' },
-    options: ['', 'primary-action-button', 'secondary-action-button', 'subtle-button'],
-    defaultValue: '',
+    options: ['Default', 'Primary', 'Secondary', 'Subtle'],
     table: {
       type: {
         summary: ['string'],
       },
     },
   },
-  className: {
+  state: {
     name: 'State',
-    description: 'Differt states of the button',
+    description: 'Button states',
     control: { type: 'select' },
-    defaultValue: '',
-    table: {
-      type: {
-        summary: ['string'],
-      },
-    },
-    options: [
-      '',
-      'utrecht-button--active',
-      'utrecht-button--hover',
-      'utrecht-button--hover utrecht-button--focus utrecht-button--focus-visible',
-      'utrecht-button--focus',
-      'utrecht-button--focus utrecht-button--focus-visible',
-    ],
+    options: ['Default', 'Active', 'Hover', 'Hover + focus-visible', 'Focus', 'Focus-visible'],
   },
   disabled: {
     name: 'Disabled',
     description: 'Disable the button',
     control: { type: 'boolean' },
-    defaultValue: false,
     table: {
       type: {
         summary: ['boolean'],
       },
     },
   },
+  // icon: {
+  //   name: 'Icon',
+  //   description: 'Icon',
+  //   control: { type: 'select' },
+  //   options: ['None', 'Start', 'End'],
+  // },
 };
 
-// TODO Icon implementation
 export const defaultArgs = {
-  content: 'Button text',
+  children: 'Button text',
   appearance: 'Default',
   state: 'Default',
+  // icon: 'None',
+  disabled: false,
 };
 
-export const Button = ({ content, appearance = defaultArgs.appearance, state = defaultArgs.state, ...restProps }) => {
+export const ButtonStory = ({
+  children,
+  appearance = defaultArgs.appearance,
+  state = defaultArgs.state,
+  disabled = defaultArgs.disabled,
+}) => {
   return (
     <button
       className={clsx('utrecht-button', {
@@ -70,10 +67,10 @@ export const Button = ({ content, appearance = defaultArgs.appearance, state = d
         'utrecht-button--focus': state === 'Focus',
         'utrecht-button--focus utrecht-button--focus-visible': state === 'Focus-visible',
       })}
+      disabled={disabled}
       type="button"
-      {...restProps}
     >
-      {content}
+      {children}
     </button>
   );
 };

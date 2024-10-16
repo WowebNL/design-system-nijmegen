@@ -1,11 +1,12 @@
 {
-  "version": "1.0.0-alpha.1",
+  "version": "0.0.1",
   "author": "Community for NL Design System",
-  "description": "Example design tokens",
+  "description": "Design tokens for the Municipality of Nijmegen",
   "license": "SEE LICENSE IN LICENSE.md",
   "name": "@gemeentenijmegen/design-tokens",
   "keywords": [
-    "nl-design-system"
+    "nl-design-system",
+    "GemeenteNijmegen/"
   ],
   "private": false,
   "publishConfig": {
@@ -13,7 +14,7 @@
   },
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:nl-design-system/example.git"
+    "url": "git@github.com:GemeenteNijmegen/design-system.git"
   },
   "scripts": {
     "clean": "rimraf dist/",

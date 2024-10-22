@@ -48,7 +48,7 @@
         },
         "font-size": {
           "value": "{nijmegen.typography.font-size.lg}",
-          "type": "fintSizes"
+          "type": "fontSizes"
         }
       },
       "date": {
@@ -72,7 +72,7 @@
       "place": {
         "color": {
           "value": "{nijmegen.color.grijs.700}",
-          "type": "colore"
+          "type": "color"
         },
         "font-weight": {
           "value": "{nijmegen.typography.font-weight.normal}",
@@ -120,6 +120,14 @@
       "font-family": {
         "value": "{nijmegen.typography.font-family.secondary}",
         "type": "fontFamilies"
+      }
+    },
+    "card-topic": {
+      "icon": {
+        "size": {
+          "value": "{nijmegen.size.icon.md}",
+          "type": "sizing"
+        }
       }
     }
   }

@@ -1,6 +1,7 @@
 /* @license CC0-1.0 */
 import type { Meta, StoryObj } from '@storybook/react';
 import '@utrecht/components/button/css/index.scss';
+import '@utrecht/components/icon/css/index.scss';
 import type { StoryContext } from '@storybook/types';
 import prettierBabel from 'prettier/parser-babel';
 import * as prettier from 'prettier/standalone';

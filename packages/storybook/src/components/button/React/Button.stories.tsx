@@ -1,6 +1,6 @@
 /* @license CC0-1.0 */
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from '@utrecht/component-library-react/dist/src/Button';
+import { Button } from '@utrecht/component-library-react';
 import { argTypes } from './../story-template';
 import '@utrecht/components/button/css/index.scss';
 

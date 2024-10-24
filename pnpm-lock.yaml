@@ -216,6 +216,9 @@ importers:
       '@storybook/core':
         specifier: 8.3.4
         version: 8.3.4
+      '@tabler/icons-webfont':
+        specifier: 3.19.0
+        version: 3.19.0
       clsx:
         specifier: 2.1.0
         version: 2.1.0
@@ -320,8 +323,8 @@ importers:
         specifier: 18.2.20
         version: 18.2.20
       '@utrecht/component-library-react':
-        specifier: 6.2.0
-        version: 6.2.0(@babel/runtime@7.24.0)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 7.1.0
+        version: 7.1.0(@babel/runtime@7.24.0)(react-dom@18.2.0)(react@18.2.0)
       '@utrecht/components':
         specifier: 3.0.1-alpha.27
         version: 3.0.1-alpha.27
@@ -6104,6 +6107,16 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
+  /@tabler/icons-webfont@3.19.0:
+    resolution: {integrity: sha512-c3axiLTjFFbR+LCqGD4MkWSguIb3KdFacCrwVoytVEMAgqvg12YeqJ9b6EGbpnoHcvve5ZvN5kGJtBVV7r1SQw==}
+    dependencies:
+      '@tabler/icons': 3.19.0
+    dev: false
+
+  /@tabler/icons@3.19.0:
+    resolution: {integrity: sha512-A4WEWqpdbTfnpFEtwXqwAe9qf9sp1yRPvzppqAuwcoF0q5YInqB+JkJtSFToCyBpPVeLxJUxxkapLvt2qQgnag==}
+    dev: false
+
   /@testing-library/dom@9.3.4:
     resolution: {integrity: sha512-FlS4ZWlp97iiNWig0Muq8p+3rVDjRiYE+YKGbAqXOu9nwJFFOdL00kFpz42M+4huzYi86vAK1sOOfyOG45muIQ==}
     engines: {node: '>=14'}
@@ -6752,8 +6765,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@utrecht/component-library-react@6.2.0(@babel/runtime@7.24.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-dloMLx5FKAiQefTdcsCLb0cbJCzNvjNjrpA7Mc3P4+oVO35VI/l1l0OHp6jnqtlMPDgkvWVpGn0qh0Y//SwpGQ==}
+  /@utrecht/component-library-react@7.1.0(@babel/runtime@7.24.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-TPYDkuGWKfvhkdFBPtVfUMEXjqqabSia++Ewf2FyRYuCSud/ZxWCkw53Pf7HXlEloAngQMc/BbrJB4f2Ok9B+Q==}
     peerDependencies:
       '@babel/runtime': ^7.23.6
       date-fns: ^2.30.0

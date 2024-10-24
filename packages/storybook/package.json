@@ -76,7 +76,6 @@
   },
   "dependencies": {
     "@storybook/core": "8.3.4",
-    "@tabler/icons-webfont": "3.19.0",
     "clsx": "2.1.0"
   }
 }

@@ -177,6 +177,10 @@
         "margin-inline": {
           "value": "{nijmegen.space.inline.beetle}",
           "type": "spacing"
+        },
+        "gap": {
+          "value": "{nijmegen.space.inline.beetle}",
+          "type": "spacing"
         }
       },
       "font-family": {

@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-CKrituN3.js";import{C as i}from"./chunk-HLWAVYOI-BfZZA4QT.js";import{P as o,S as c,a as d,B as t}from"./Button.stories-CUdl7oCs.js";import{useMDXComponents as a}from"./index-DI5IigMn.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-CHoXM8U8.js";import"../sb-preview/runtime.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";/* empty css              */function r(s){const n=Object.assign({h1:"h1",p:"p",h2:"h2",code:"code",table:"table",thead:"thead",tr:"tr",th:"th",tbody:"tbody",td:"td",a:"a",ul:"ul",li:"li",h3:"h3"},a(),s.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{id:"documentatie-button-component",children:"Documentatie button component"}),`
+import{j as e}from"./jsx-runtime-CKrituN3.js";import{C as r}from"./chunk-HLWAVYOI-CEW7u6lb.js";import{P as c,S as l,a as d,B as t}from"./Button.stories-B3izTjff.js";import{B as i}from"./Button-KAn8hUwT.js";import{useMDXComponents as o}from"./index-DI5IigMn.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-CGwXHD-o.js";import"../sb-preview/runtime.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";/* empty css              */import"./createReactComponent-D_5DJZVZ.js";function a(s){const n=Object.assign({h1:"h1",p:"p",h2:"h2",code:"code",table:"table",thead:"thead",tr:"tr",th:"th",tbody:"tbody",td:"td",a:"a",ul:"ul",li:"li",h3:"h3"},o(),s.components);return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{id:"documentatie-button-component",children:"Documentatie button component"}),`
 `,e.jsx(n.p,{children:"Knoppen zijn ontworpen om acties voor de gebruiker eenvoudig zichtbaar en begrijpelijk te maken. Nijmegen biedt diverse knopvarianten die elk afgestemd zijn op verschillende behoeften."}),`
 `,e.jsx(n.h2,{id:"component",children:"Component"}),`
 `,e.jsxs(n.p,{children:["Dit component is een implementatie van het ",e.jsx(n.code,{children:"utrecht-button"})," component."]}),`
@@ -14,17 +14,24 @@ import{j as e}from"./jsx-runtime-CKrituN3.js";import{C as i}from"./chunk-HLWAVYO
 `,e.jsx(n.h2,{id:"variaties",children:"Variaties"}),`
 `,e.jsx(n.h3,{id:"primair",children:"Primair"}),`
 `,e.jsx(n.p,{children:"Een Primaire knop is bedoeld voor de allerbelangrijkste handeling op het scherm in ons websites. Deze handeling is meestal verplicht of essentieel voor de gebruiker. Primaire knoppen zijn ontworpen om de cruciale handeling duidelijk te benadrukken. Daarom is het beter om te voorkomen dat er op één scherm meerdere Primaire knoppen staan. Voor minder belangrijke handelingen kun je overwegen om in plaats daarvan secundaire of aanvullende knoppen te gebruiken binnen ons design systeem."}),`
-`,e.jsx(i,{of:o,sourceState:"none"}),`
+`,e.jsx(r,{of:c,sourceState:"none"}),`
 `,e.jsx(n.h3,{id:"secundaire",children:"Secundaire"}),`
 `,e.jsx(n.p,{children:"Secundaire knoppen worden gebruikt voor handelingen die niet verplicht of essentieel zijn voor de gebruiker. Vaak zijn er op schermen meerdere secundaire knoppen naast één primaire knop binnen ons websites."}),`
-`,e.jsx(i,{of:c,sourceState:"none"}),`
+`,e.jsx(r,{of:l,sourceState:"none"}),`
 `,e.jsx(n.h3,{id:"aanvullende",children:"Aanvullende"}),`
 `,e.jsx(n.p,{children:"Aanvullende knoppen kunnen gebruikt worden voor vergelijkbare handelingen als secundaire knoppen. Echter, aanvullende knoppen zijn bedoeld voor acties die opzettelijk minder zichtbaar moeten zijn voor de gebruiker. Dit kan onder andere annulerings- en afwijsfunctionaliteiten omvatten. Let op! Omdat aanvullende knoppen geen randen hebben, is een bijbehorend pictogram nodig om ze duidelijk te onderscheiden van links en passieve tekstelementen binnen ons websites."}),`
-`,e.jsx(i,{of:d,sourceState:"none"}),`
+`,e.jsx(r,{of:d,sourceState:"none"}),`
 `,e.jsx(n.h2,{id:"iconen",children:"Iconen"}),`
 `,e.jsx(n.p,{children:"Binnen ons websites kunnen pictogrammen aan knoppen worden toegevoegd om de handeling duidelijker te maken. In sommige gevallen is het ook nuttig om pictogrammen toe te voegen om belangrijke acties beter te onderscheiden. Het wordt echter niet aanbevolen om knoppen alleen met pictogrammen te gebruiken, omdat gebruikers pictogrammen op verschillende manieren kunnen interpreteren. Zie de iconsrichtlijnen voor meer informatie over het gebruik ervan binnen ons design systeem."}),`
-`,e.jsx(n.p,{children:`TODO: icon start
-TODO: icon end`}),`
+`,e.jsx(n.p,{children:"Icon start"}),`
+`,e.jsx("div",{class:"nijmegen-theme ",children:e.jsx("div",{class:"css-s230ta",children:e.jsx("div",{class:"css-xzp052",children:e.jsxs(n.p,{children:[e.jsx(i,{appearance:"Primary",iconBeginning:"Tabler example",children:"Label"}),`  
+`,e.jsx(i,{appearance:"Secondary",iconBeginning:"Tabler example",children:"Label"}),`  
+`,e.jsx(i,{appearance:"Subtle",iconBeginning:"Tabler example",children:"Label"})]})})})}),`
+`,e.jsx(n.p,{children:"Icon end"}),`
+`,e.jsx("div",{class:"nijmegen-theme ",children:e.jsx("div",{class:"css-s230ta",children:e.jsx("div",{class:"css-xzp052",children:e.jsxs(n.p,{children:[e.jsx(i,{appearance:"Primary",iconEnding:"Tabler example",children:"Label"}),`  
+`,e.jsx(i,{appearance:"Secondary",iconEnding:"Tabler example",children:"Label"}),`  
+`,e.jsx(i,{appearance:"Subtle",iconEnding:"Tabler example",children:"Label"})]})})})}),`
+`,e.jsx(n.p,{children:e.jsx(n.a,{href:"?path=/docs/foundations-icons-documentatie--docs",children:"Bekijk de documentatie over het gebruik van iconen"})}),`
 `,e.jsx(n.h2,{id:"states",children:"States"}),`
 `,e.jsx(n.h3,{id:"default",children:"Default"}),`
 `,e.jsx(n.p,{children:"De normale weergave van de knop zonder enige interactie."}),`
@@ -73,4 +80,4 @@ TODO: icon end`}),`
 `,e.jsx("div",{class:"nijmegen-theme ",children:e.jsx("div",{class:"css-s230ta",children:e.jsx("div",{class:"css-xzp052",children:e.jsxs(n.p,{children:[e.jsx(t,{disabled:!0,className:"utrecht-button--focus utrecht-button--focus-visible",children:"Label"}),`  
 `,e.jsx(t,{disabled:!0,appearance:"primary-action-button",className:"utrecht-button--focus utrecht-button--focus-visible",children:"Label"}),`  
 `,e.jsx(t,{disabled:!0,appearance:"secondary-action-button",className:"utrecht-button--focus utrecht-button--focus-visible",children:"Label"}),`  
-`,e.jsx(t,{disabled:!0,appearance:"subtle-button",className:"utrecht-button--focus utrecht-button--focus-visible",children:"Label"})]})})})})]})}function w(s={}){const{wrapper:n}=Object.assign({},a(),s.components);return n?e.jsx(n,Object.assign({},s,{children:e.jsx(r,s)})):r(s)}export{w as default};
+`,e.jsx(t,{disabled:!0,appearance:"subtle-button",className:"utrecht-button--focus utrecht-button--focus-visible",children:"Label"})]})})})})]})}function y(s={}){const{wrapper:n}=Object.assign({},o(),s.components);return n?e.jsx(n,Object.assign({},s,{children:e.jsx(a,s)})):a(s)}export{y as default};

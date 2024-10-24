@@ -1,4 +1,4 @@
-import{M as r,g as a}from"./chunk-HLWAVYOI-BfZZA4QT.js";import{j as e}from"./jsx-runtime-CKrituN3.js";import{useMDXComponents as s}from"./index-DI5IigMn.js";import"./iframe-CHoXM8U8.js";import"../sb-preview/runtime.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";const c=`# EUROPEAN UNION PUBLIC LICENCE v. 1.2
+import{M as r,g as a}from"./chunk-HLWAVYOI-CEW7u6lb.js";import{j as e}from"./jsx-runtime-CKrituN3.js";import{useMDXComponents as s}from"./index-DI5IigMn.js";import"./iframe-CGwXHD-o.js";import"../sb-preview/runtime.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";const c=`# EUROPEAN UNION PUBLIC LICENCE v. 1.2
 
 EUPL © the European Union 2007, 2016
 
@@ -286,5 +286,5 @@ Code from exclusive appropriation.
 
 All other changes or additions to this Appendix require the production of a new
 EUPL version.
-`;function t(n){return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Docs/Open Source License"}),`
-`,e.jsx(a,{children:c})]})}function h(n={}){const{wrapper:o}=Object.assign({},s(),n.components);return o?e.jsx(o,{...n,children:e.jsx(t,{...n})}):t()}const l=()=>{throw new Error("Docs-only story")};l.parameters={docsOnly:!0};const i={title:"Docs/Open Source License",tags:["stories-mdx"],includeStories:["__page"]};i.parameters=i.parameters||{};i.parameters.docs={...i.parameters.docs||{},page:h};const v=["__page"];export{v as __namedExportsOrder,l as __page,i as default};
+`;function t(n){return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"introduction/Open Source License"}),`
+`,e.jsx(a,{children:c})]})}function h(n={}){const{wrapper:o}=Object.assign({},s(),n.components);return o?e.jsx(o,{...n,children:e.jsx(t,{...n})}):t()}const l=()=>{throw new Error("Docs-only story")};l.parameters={docsOnly:!0};const i={title:"introduction/Open Source License",tags:["stories-mdx"],includeStories:["__page"]};i.parameters=i.parameters||{};i.parameters.docs={...i.parameters.docs||{},page:h};const v=["__page"];export{v as __namedExportsOrder,l as __page,i as default};

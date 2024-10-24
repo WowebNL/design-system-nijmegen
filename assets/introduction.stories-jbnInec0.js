@@ -1,4 +1,4 @@
-import{M as s,g as a}from"./chunk-HLWAVYOI-BfZZA4QT.js";import{j as e}from"./jsx-runtime-CKrituN3.js";import{useMDXComponents as o}from"./index-DI5IigMn.js";import"./iframe-CHoXM8U8.js";import"../sb-preview/runtime.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";const d=`<!-- @license CC0-1.0 -->
+import{M as r,g as a}from"./chunk-HLWAVYOI-CEW7u6lb.js";import{j as e}from"./jsx-runtime-CKrituN3.js";import{useMDXComponents as o}from"./index-DI5IigMn.js";import"./iframe-CGwXHD-o.js";import"../sb-preview/runtime.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";const d=`<!-- @license CC0-1.0 -->
 
 # NL Design System introductie
 
@@ -34,5 +34,5 @@ Het is belangrijk dat iedereen de online dienstverlening van de overheid kan geb
 De POC is te vinden op:
 
 <http://github.com/nl-design-system>
-`;function r(n){return e.jsxs(e.Fragment,{children:[e.jsx(s,{title:"Docs/Intro"}),`
-`,e.jsx(a,{children:d})]})}function m(n={}){const{wrapper:i}=Object.assign({},o(),n.components);return i?e.jsx(i,{...n,children:e.jsx(r,{...n})}):r()}const l=()=>{throw new Error("Docs-only story")};l.parameters={docsOnly:!0};const t={title:"Docs/Intro",tags:["stories-mdx"],includeStories:["__page"]};t.parameters=t.parameters||{};t.parameters.docs={...t.parameters.docs||{},page:m};const D=["__page"];export{D as __namedExportsOrder,l as __page,t as default};
+`;function s(n){return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"introduction/NL Design System"}),`
+`,e.jsx(a,{children:d})]})}function m(n={}){const{wrapper:i}=Object.assign({},o(),n.components);return i?e.jsx(i,{...n,children:e.jsx(s,{...n})}):s()}const l=()=>{throw new Error("Docs-only story")};l.parameters={docsOnly:!0};const t={title:"introduction/NL Design System",tags:["stories-mdx"],includeStories:["__page"]};t.parameters=t.parameters||{};t.parameters.docs={...t.parameters.docs||{},page:m};const D=["__page"];export{D as __namedExportsOrder,l as __page,t as default};

@@ -1,5 +1,6 @@
 import { Canvas } from '@storybook/addon-docs';
 import { Button } from "@utrecht/component-library-react";
+import { ButtonStory } from './Html/Button';
 import * as ButtonStories from './React/Button.stories';
 
 # Documentatie button component
@@ -48,8 +49,29 @@ Aanvullende knoppen kunnen gebruikt worden voor vergelijkbare handelingen als se
 
 Binnen ons websites kunnen pictogrammen aan knoppen worden toegevoegd om de handeling duidelijker te maken. In sommige gevallen is het ook nuttig om pictogrammen toe te voegen om belangrijke acties beter te onderscheiden. Het wordt echter niet aanbevolen om knoppen alleen met pictogrammen te gebruiken, omdat gebruikers pictogrammen op verschillende manieren kunnen interpreteren. Zie de iconsrichtlijnen voor meer informatie over het gebruik ervan binnen ons design systeem.
 
-TODO: icon start
-TODO: icon end
+Icon start
+<div class="nijmegen-theme ">
+    <div class="css-s230ta">
+        <div class="css-xzp052">
+            <ButtonStory appearance="Primary" iconBeginning="Tabler example" >Label</ButtonStory> &nbsp;
+            <ButtonStory appearance="Secondary" iconBeginning="Tabler example" >Label</ButtonStory> &nbsp;
+            <ButtonStory appearance="Subtle" iconBeginning="Tabler example" >Label</ButtonStory> 
+        </div>
+    </div>
+</div>
+
+Icon end
+<div class="nijmegen-theme ">
+    <div class="css-s230ta">
+        <div class="css-xzp052">
+            <ButtonStory appearance="Primary" iconEnding="Tabler example" >Label</ButtonStory> &nbsp;
+            <ButtonStory appearance="Secondary" iconEnding="Tabler example" >Label</ButtonStory> &nbsp;
+            <ButtonStory appearance="Subtle" iconEnding="Tabler example" >Label</ButtonStory> 
+        </div>
+    </div>
+</div>
+
+[Bekijk de documentatie over het gebruik van iconen](?path=/docs/foundations-icons-documentatie--docs)
 
 ## States
 ### Default  

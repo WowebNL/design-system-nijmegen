@@ -1,0 +1,83 @@
+import { IconGallery, IconItem } from '@storybook/addon-docs';
+import { IconAlertCircle, IconArrowDown, IconArrowLeft, IconArrowRight, IconArrowUp, IconChevronDown, IconChevronLeft, IconChevronRight, IconChevronUp, IconCircleCheck, IconInfoCircle, IconMenu2, IconSearch, IconX, IconXboxX } from '@tabler/icons-react';
+
+# Icons
+
+## Algemene regels
+Iconen die door de Gemeente Nijmegen worden gebruikt, 
+zijn eenvoudig en herkenbaar en volgen de dunne lijnstijl.
+
+Alle websites van de gemeente Nijmegen moeten dezelfde functionele en waarschuwingsiconen gebruiken.
+
+Voor toptakeniconen maken we gebruik van [Gemeenteniconen van OpenGemeente](https://github.com/OpenGemeenten/Iconenset/tree/master/Line). Hoewel het aanbevolen wordt om de [Tabler-iconenset](https://github.com/tabler/tabler-icons) te gebruiken voor functionele iconen, kunnen gebruikers alternatieve iconen kiezen als er geen geschikte optie binnen de [Tabler-iconenset](https://github.com/tabler/tabler-icons) beschikbaar is.
+
+## Functionele icons 
+Hieronder staan enkele van de meest gebruikte iconen voor belangrijke functies binnen het designsysteem. Functionele iconen zijn iconen die acties en activiteiten aangeven. Deze iconen zijn gereserveerd en moeten met voorzichtigheid buiten hun bestaande patronen en componenten worden gebruikt.
+
+### Richtingaanwijzende pijlen (Arrows)
+
+<IconGallery>
+  <IconItem name="arrow-up">
+    <IconArrowUp stroke={2} />
+  </IconItem>
+  <IconItem name="arrow-down">
+    <IconArrowDown stroke={2} />
+  </IconItem>
+  <IconItem name="arrow-right">
+    <IconArrowRight stroke={2} />
+  </IconItem>
+  <IconItem name="arrow-left">
+    <IconArrowLeft stroke={2} />
+  </IconItem>
+</IconGallery>
+
+### Chevrons
+
+<IconGallery>
+  <IconItem name="chevron-up">
+    <IconChevronUp stroke={2} />
+  </IconItem>
+  <IconItem name="chevron-down">
+    <IconChevronDown stroke={2} />
+  </IconItem>
+  <IconItem name="chevron-right">
+    <IconChevronRight stroke={2} />
+  </IconItem>
+  <IconItem name="chevron-left">
+    <IconChevronLeft stroke={2} />
+  </IconItem>
+</IconGallery>
+
+### Overig
+<IconGallery>
+  <IconItem name="Search">
+    <IconSearch stroke={2} />
+  </IconItem>
+  <IconItem name="Close">
+    <IconX stroke={2} />
+  </IconItem>
+  <IconItem name="Menu">
+    <IconMenu2 stroke={2} />
+  </IconItem>
+
+</IconGallery>
+[Bekijk alle Tabler iconen](https://tabler.io/icons)
+
+## Alert icons 
+Hieronder staan de belangrijkste waarschuwingsiconen die we gebruiken in systeemberichten.
+<div className="nijmegen-theme">
+<IconGallery>
+  <IconItem name="Success">
+    <IconCircleCheck stroke={2} color="var(--nijmegen-color-groen-500)"/>
+  </IconItem>
+  <IconItem name="Information">
+    <IconInfoCircle stroke={2} color="var(--nijmegen-feedback-info-default-color)" />
+  </IconItem>
+  <IconItem name="Warning">
+    <IconAlertCircle stroke={2} color="var(--nijmegen-feedback-warning-default-color)"/>
+  </IconItem>
+  <IconItem name="Error or failure">
+    <IconXboxX stroke={2} color="var(--nijmegen-color-rood-400)"/>
+  </IconItem>
+</IconGallery>
+</div>

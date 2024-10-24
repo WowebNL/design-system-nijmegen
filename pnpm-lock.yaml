@@ -216,6 +216,9 @@ importers:
       '@storybook/core':
         specifier: 8.3.4
         version: 8.3.4
+      '@tabler/icons-webfont':
+        specifier: 3.19.0
+        version: 3.19.0
       clsx:
         specifier: 2.1.0
         version: 2.1.0
@@ -6103,6 +6106,16 @@ packages:
     dependencies:
       defer-to-connect: 2.0.1
     dev: true
+
+  /@tabler/icons-webfont@3.19.0:
+    resolution: {integrity: sha512-c3axiLTjFFbR+LCqGD4MkWSguIb3KdFacCrwVoytVEMAgqvg12YeqJ9b6EGbpnoHcvve5ZvN5kGJtBVV7r1SQw==}
+    dependencies:
+      '@tabler/icons': 3.19.0
+    dev: false
+
+  /@tabler/icons@3.19.0:
+    resolution: {integrity: sha512-A4WEWqpdbTfnpFEtwXqwAe9qf9sp1yRPvzppqAuwcoF0q5YInqB+JkJtSFToCyBpPVeLxJUxxkapLvt2qQgnag==}
+    dev: false
 
   /@testing-library/dom@9.3.4:
     resolution: {integrity: sha512-FlS4ZWlp97iiNWig0Muq8p+3rVDjRiYE+YKGbAqXOu9nwJFFOdL00kFpz42M+4huzYi86vAK1sOOfyOG45muIQ==}

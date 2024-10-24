@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import '@tabler/icons-webfont/dist/tabler-icons.min.css';
 
 export const argTypes = {
   children: {

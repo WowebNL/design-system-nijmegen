@@ -56,7 +56,7 @@ const preview: Preview = {
           'introduction',
           ['Introductie', 'Developer introduction'],
           'foundations',
-          ['Icons', ['Documentatie', 'Developer documentation']],
+          ['Colors', 'Icons'],
           'Components',
           'Templates',
         ],

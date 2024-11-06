@@ -27,6 +27,7 @@
     "@gemeentenijmegen/assets": "workspace:*",
     "@gemeentenijmegen/components-css": "workspace:*",
     "@gemeentenijmegen/design-tokens": "workspace:*",
+    "@gemeentenijmegen/design-tokens-dark": "workspace:*",
     "@gemeentenijmegen/font": "workspace:*",
     "@gemeentenijmegen/web-components-react": "workspace:*",
     "@gemeentenijmegen/web-components-stencil": "workspace:*",

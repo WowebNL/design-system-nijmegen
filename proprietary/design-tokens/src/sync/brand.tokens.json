@@ -375,8 +375,24 @@
         "value": "{nijmegen.color.white}",
         "type": "color"
       },
+      "background-shade": {
+        "value": "#FAF9F6",
+        "type": "color"
+      },
       "background-subdued": {
         "value": "{nijmegen.color.grijs.200}",
+        "type": "color"
+      },
+      "border-default": {
+        "value": "{nijmegen.color.grijs.500}",
+        "type": "color"
+      },
+      "border-subdued": {
+        "value": "{nijmegen.color.grijs.300}",
+        "type": "color"
+      },
+      "border-strong": {
+        "value": "{nijmegen.color.grijs.700}",
         "type": "color"
       },
       "donkergroen": {

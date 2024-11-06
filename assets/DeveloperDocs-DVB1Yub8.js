@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-CKrituN3.js";import{M as t,e as n}from"./chunk-HLWAVYOI-BQLF08A2.js";import{c as r}from"./createReactComponent-D_5DJZVZ.js";import{I as i}from"./IconArrowRight-pMXm72se.js";import{useMDXComponents as o}from"./index-DI5IigMn.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-CUuL0Ui7.js";import"../sb-preview/runtime.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";/**
+import{j as e}from"./jsx-runtime-CKrituN3.js";import{M as t,e as n}from"./chunk-HLWAVYOI-DLbUAvW8.js";import{c as r}from"./createReactComponent-D_5DJZVZ.js";import{I as i}from"./IconArrowRight-pMXm72se.js";import{useMDXComponents as o}from"./index-DI5IigMn.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-Cmyfwyz7.js";import"../sb-preview/runtime.js";import"./react-18-Bym-zv4b.js";import"./extends-CCbyfPlC.js";import"./index-VaGq4-f5.js";/**
  * @license @tabler/icons-react v3.20.0 - MIT
  *
  * This source code is licensed under the MIT license.
@@ -17,7 +17,7 @@ import{j as e}from"./jsx-runtime-CKrituN3.js";import{M as t,e as n}from"./chunk-
 `]}),`
 `,e.jsx(c.h2,{id:"html-example",children:"Html example"}),`
 `,e.jsx(c.h3,{id:"tabler-icon",children:"Tabler icon"}),`
-`,e.jsxs("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":"2","stroke-linecap":"round","stroke-linejoin":"round",class:"icon icon-tabler icons-tabler-outline icon-tabler-arrow-right",children:[e.jsx("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),e.jsx("path",{d:"M5 12l14 0"}),e.jsx("path",{d:"M13 18l6 -6"}),e.jsx("path",{d:"M13 6l6 6"})]}),`
+`,e.jsxs("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",className:"icon icon-tabler icons-tabler-outline icon-tabler-arrow-right",children:[e.jsx("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),e.jsx("path",{d:"M5 12l14 0"}),e.jsx("path",{d:"M13 18l6 -6"}),e.jsx("path",{d:"M13 6l6 6"})]}),`
 `,e.jsx(n,{language:"html",code:`
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right">
   <path stroke="none" d="M0 0h24v24H0z" fill="none" />

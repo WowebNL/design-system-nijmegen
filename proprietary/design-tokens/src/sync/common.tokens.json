@@ -125,6 +125,14 @@
           "type": "color"
         }
       },
+      "outline-offset": {
+        "value": "1px",
+        "type": "other"
+      },
+      "outline-style": {
+        "value": "dashed",
+        "type": "other"
+      },
       "outline-width": {
         "value": "{nijmegen.border-width.md}",
         "type": "borderWidth"
@@ -392,18 +400,6 @@
       "round": {
         "value": "999px",
         "type": "borderRadius"
-      }
-    }
-  },
-  "nijmegen ": {
-    "focus": {
-      "outline-offset": {
-        "value": "0",
-        "type": "focus"
-      },
-      "outline-style": {
-        "value": "dotted",
-        "type": "focus"
       }
     }
   },

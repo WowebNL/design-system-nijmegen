@@ -207,7 +207,7 @@
           },
           "border-color": {
             "type": "color",
-            "value": "transparent"
+            "value": "{nijmegen.interaction.hover.color}"
           },
           "color": {
             "type": "color",

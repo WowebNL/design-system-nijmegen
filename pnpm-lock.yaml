@@ -88,7 +88,20 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
-  packages/components-css: {}
+  packages/components-css:
+    devDependencies:
+      bootstrap:
+        specifier: v5.3.3
+        version: 5.3.3
+      postcss-discard-duplicates:
+        specifier: 7.0.1
+        version: 7.0.1(postcss@8.4.35)
+      rollup:
+        specifier: 4.12.1
+        version: 4.12.1
+      rollup-plugin-postcss:
+        specifier: 4.0.2
+        version: 4.0.2(postcss@8.4.35)
 
   packages/components-react:
     dependencies:
@@ -7347,6 +7360,12 @@ packages:
 
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: true
+
+  /bootstrap@5.3.3:
+    resolution: {integrity: sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.8
     dev: true
 
   /boxen@5.1.2:
@@ -14773,6 +14792,15 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    dependencies:
+      postcss: 8.4.35
+    dev: true
+
+  /postcss-discard-duplicates@7.0.1(postcss@8.4.35):
+    resolution: {integrity: sha512-oZA+v8Jkpu1ct/xbbrntHRsfLGuzoP+cpt0nJe5ED2FQF8n8bJtn7Bo28jSmBYwqgqnqkuSXJfSUEE7if4nClQ==}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.31
     dependencies:
       postcss: 8.4.35
     dev: true

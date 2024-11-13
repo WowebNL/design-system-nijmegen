@@ -1,0 +1,48 @@
+/*! Based on css-grid of Bootstrap v5.1.3 Copyright (c) 2011-2024 The Bootstrap Authors */
+
+@import "~bootstrap/scss/mixins/breakpoints";
+
+$nijmegen-grid-breakpoints: (
+  xs: var(--nijmegen-breakpoint-xs, 0),
+  sm: var(--nijmegen-breakpoint-sm, 576px),
+  md: var(--nijmegen-breakpoint-md, 768px),
+  lg: var(--nijmegen-breakpoint-lg, 992px),
+  xl: var(--nijmegen-breakpoint-xl, 1200px),
+  xxl: var(--nijmegen-breakpoint-xxl, 1400px),
+) !default;
+$nijmegen-grid-rows: 1 !default;
+$nijmegen-grid-columns: 12 !default;
+$nijmegen-grid-gap: 1.5rem !default;
+
+@mixin make-cssgrid($columns: $nijmegen-grid-columns, $breakpoints: $nijmegen-grid-breakpoints) {
+  @each $breakpoint in map-keys($breakpoints) {
+    $nijmegen-infix: breakpoint-infix($breakpoint, $breakpoints) !default;
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @if $columns > 0 {
+        @for $i from 1 through $columns {
+          .nijmegen-g-col#{$nijmegen-infix}-#{$i} {
+            grid-column: auto / span $i;
+          }
+        }
+
+        // Start with `1` because `0` is an invalid value.
+        // Ends with `$columns - 1` because offsetting by the width of an entire row isn't possible.
+        @for $i from 1 through ($columns - 1) {
+          .nijmegen-g-start#{$nijmegen-infix}-#{$i} {
+            grid-column-start: $i;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nijmegen-grid {
+  display: grid;
+  gap: var(--nijmegen-grid-gap, #{$nijmegen-grid-gap});
+  grid-template-columns: repeat(var(--nijmegen-grid-columns, #{$nijmegen-grid-columns}), 1fr);
+  grid-template-rows: repeat(var(--nijmegen-grid-rows, #{$nijmegen-grid-rows}), 1fr);
+
+  @include make-cssgrid;
+}

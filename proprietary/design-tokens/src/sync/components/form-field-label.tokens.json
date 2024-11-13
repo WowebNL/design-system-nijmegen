@@ -1,0 +1,26 @@
+{
+  "utrecht": {
+    "form-field-label": {
+      "color": {
+        "type": "color",
+        "value": "{nijmegen.document.color}"
+      },
+      "font-family": {
+        "value": "{nijmegen.document.font-family}",
+        "type": "fontFamilies"
+      },
+      "font-size": {
+        "value": "{nijmegen.document.font-size}",
+        "type": "fontSizes"
+      },
+      "font-weight": {
+        "value": "{nijmegen.document.strong.font-weight}",
+        "type": "fontWeights"
+      },
+      "line-height": {
+        "value": "{nijmegen.document.line-height}",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

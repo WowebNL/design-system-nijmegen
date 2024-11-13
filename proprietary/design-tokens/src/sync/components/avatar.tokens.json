@@ -1,0 +1,68 @@
+{
+  "nl": {
+    "avatar": {
+      "size": {
+        "value": "{nijmegen.pointer-target.min-size}",
+        "type": "sizing"
+      },
+      "icon": {
+        "icon-size": {
+          "value": "{nijmegen.icon.functional.size}",
+          "type": "sizing"
+        }
+      },
+      "background-color": {
+        "value": "{nijmegen.interaction.color}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "color": {
+        "value": "{nijmegen.color.white}",
+        "type": "color"
+      },
+      "text": {
+        "font-family": {
+          "value": "{nijmegen.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.document.strong.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{nijmegen.document.line-height}",
+          "type": "lineHeights"
+        },
+        "text-transform": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "font-size": {
+          "value": "{nijmegen.document.font-size}",
+          "type": "fontSizes"
+        }
+      },
+      "border-width": {
+        "value": "{nijmegen.border-width.sm}",
+        "type": "borderWidth"
+      },
+      "hover": {
+        "background-color": {
+          "value": "{nijmegen.interaction.hover.color}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "color": {
+          "value": "{nijmegen.color.white}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

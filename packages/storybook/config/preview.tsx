@@ -7,9 +7,6 @@ defineCustomElements();
 
 const preview: Preview = {
   decorators: [
-    // Enable `utrecht-document` component as backdrop
-    // Enable `utrecht-theme` to configure the design tokens
-    // Ensure old html templates will be rendered as react component
     (Story: any, storyContext: StoryContext<any>) => {
       // Hack to make current args for a story available in the transformSource of the docs addon
       storyContext.parameters['args'] = storyContext.args;
@@ -53,9 +50,17 @@ const preview: Preview = {
     },
     options: {
       storySort: {
-        order: ['Docs', 'Components', 'Templates'],
+        method: 'configure',
+        includeNames: true,
+        order: [
+          'introduction',
+          ['Introductie', 'Developer introduction'],
+          'foundations',
+          ['Icons', ['Documentatie', 'Developer documentation']],
+          'Components',
+          'Templates',
+        ],
       },
-      panelPosition: 'right',
     },
   },
 };

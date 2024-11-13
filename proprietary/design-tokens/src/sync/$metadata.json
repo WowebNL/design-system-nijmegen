@@ -43,6 +43,8 @@
     "components/textbox.tokens",
     "components/toolbar-button.tokens",
     "components/header.tokens",
-    "components/unordered-list.tokens"
+    "components/unordered-list.tokens",
+    "components/focus-ring.tokens",
+    "button-group.tokens"
   ]
 }

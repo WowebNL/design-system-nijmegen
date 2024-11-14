@@ -47,11 +47,11 @@ $nijmegen-block-spacers: (
 // container
 $nijmegen-container-padding-inline-start: var(
   --nijmegen-container-padding-inline-start,
-  map.get($nijmegen-inline-spacers, "xl")
+  map.get($nijmegen-inline-spacers, "sm")
 ) !default;
 $nijmegen-container-padding-inline-end: var(
   --nijmegen-container-padding-inline-end,
-  map.get($nijmegen-inline-spacers, "xl")
+  map.get($nijmegen-inline-spacers, "sm")
 ) !default;
 
 // grid

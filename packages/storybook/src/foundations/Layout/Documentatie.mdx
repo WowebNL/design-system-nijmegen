@@ -1,0 +1,37 @@
+import '@gemeentenijmegen/layout-css/dist/layout.css';
+
+# Layout
+
+## Breakpoints
+De gemeente Nijmegen gebruikt een layout met de volgende 6 breakpoints:
+
+| Naam        | Class infix | Breakpoint| 
+| ----------------- | ----------- | ------------------ | 
+| Extra small       |             | < 576px            | 
+| Small             | sm          | ≥576px             | 
+| Medium            | md          | ≥768px             | 
+| Large             | lg          | ≥992px             | 
+| Extra large       | xl          | ≥1200px            | 
+| Extra extra large | xxl         | ≥1400px            | 
+
+
+## Containers
+Om de content uit te lijnen op basis van het device of de viewport van de gebruiker worden containers gebruikt. De gemeente Nijmegen onderscheid drie type containers:
+
+- Een container met een `max-width` op ieder responsive breakpoint (`.nijmegen-container`);
+- Een container per breakpoint welke een `width: 100%` (volledige breedte) heeft tot hij het gespecificeerde breakpoint bereikt (bijv `.nijmegen-container-md`);
+- Een container die altijd een `width: 100%` (volledige breedte) heeft (`.nijmegen-container-fluid`)
+
+| Naam        | Class infix | `max-width` | padding start | padding end |
+| ----------------- | ----------- | ------------------ | ------------------ | ------------------ | 
+| Extra small       |             | 100%          | 0.75rem | 0.75rem|
+| Small             | sm          | 540px             | 0.75rem | 0.75rem|
+| Medium            | md          | 720px             | 0.75rem | 0.75rem|
+| Large             | lg          | 960px             | 0.75rem | 0.75rem|
+| Extra large       | xl          | 	1140px            | 0.75rem | 0.75rem|
+| Extra extra large | xxl         | 	1320px            | 0.75rem | 0.75rem|
+
+<div className="nijmegen-grid">
+    <div className="nijmegen-g-col-6">test</div>
+    <div className="nijmegen-g-col-6">test 2</div>
+</div>

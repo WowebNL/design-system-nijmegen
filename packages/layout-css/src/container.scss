@@ -16,8 +16,8 @@ $container-max-widths: (
 ) {
   margin-inline-end: auto;
   margin-inline-start: auto;
-  padding-inline-end: calc($nijmegen-container-padding-inline-end * 0.5);
-  padding-inline-start: calc($nijmegen-container-padding-inline-start * 0.5);
+  padding-inline-end: $nijmegen-container-padding-inline-end;
+  padding-inline-start: $nijmegen-container-padding-inline-end;
   width: 100%; /* stylelint-disable-line property-disallowed-list */
 }
 

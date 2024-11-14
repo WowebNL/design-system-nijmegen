@@ -26,6 +26,7 @@
     "@etchteam/storybook-addon-status": "4.2.4",
     "@gemeentenijmegen/assets": "workspace:*",
     "@gemeentenijmegen/components-css": "workspace:*",
+    "@gemeentenijmegen/layout-css": "workspace:*",
     "@gemeentenijmegen/design-tokens": "workspace:*",
     "@gemeentenijmegen/font": "workspace:*",
     "@gemeentenijmegen/web-components-react": "workspace:*",

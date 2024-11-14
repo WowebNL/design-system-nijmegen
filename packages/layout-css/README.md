@@ -23,21 +23,23 @@ Containers are an implementation of the [Bootstrap v5.3 Containers](https://getb
 - `.nijmegen-container-{breakpoint}`, which is `width: 100%` until the specified breakpoint
 - `.nijmegen-container-fluid`, which is `width: 100%` at all breakpoints
 
-The following `max-width` values are used wicht are customizable based on the implementation of the design tokens.
-| Breakpoint | Default `max-width` value | Design token | Sass variable |
-| ----------------- | ------------------------- | ---------------------------------- | ----------------------------------- |
-| Extra small | 100% | | |
-| Small | 540px | `nijmegen.container.max-width.sm` | `$nijmegen-container-max-width-sm` |
-| Medium | 720px | `nijmegen.container.max-width.md` | `$nijmegen-container-max-width-md` |
-| Large | 960px | `nijmegen.container.max-width.lg` | `$nijmegen-container-max-width-lg` |
-| Extra large | 1140px | `nijmegen.container.max-width.xl` | `$nijmegen-container-max-width-xl` |
-| Extra extra large | 1320px | `nijmegen.container.max-width.xxl` | `$nijmegen-container-max-width-xxl` |
+The following `max-width` values are used wicht are customizable based on the implementation of the design tokens:
 
-Other container design tokens.
-| Design token | Default value | Sass variable | Css variable |
+| Breakpoint        | Default `max-width` value | Design token                       | Sass variable                       |
 | ----------------- | ------------------------- | ---------------------------------- | ----------------------------------- |
-| `nijmegen.container.padding-inline-start` | `nijmegen.space.block.xl` | `$nijmegen-container-padding-inline-start` | `var(--nijmegen-container-padding-inline-start)` |
-| `nijmegen.container.padding-inline-end` | `nijmegen.space.block.xl` | `$nijmegen-container-padding-inline-end` | `var(--nijmegen-container-padding-inline-end)` |
+| Extra small       | 100%                      |                                    |                                     |
+| Small             | 540px                     | `nijmegen.container.max-width.sm`  | `$nijmegen-container-max-width-sm`  |
+| Medium            | 720px                     | `nijmegen.container.max-width.md`  | `$nijmegen-container-max-width-md`  |
+| Large             | 960px                     | `nijmegen.container.max-width.lg`  | `$nijmegen-container-max-width-lg`  |
+| Extra large       | 1140px                    | `nijmegen.container.max-width.xl`  | `$nijmegen-container-max-width-xl`  |
+| Extra extra large | 1320px                    | `nijmegen.container.max-width.xxl` | `$nijmegen-container-max-width-xxl` |
+
+Other container design tokens:
+
+| Design token                              | Default value             | Sass variable                              | Css variable                                     |
+| ----------------------------------------- | ------------------------- | ------------------------------------------ | ------------------------------------------------ |
+| `nijmegen.container.padding-inline-start` | `nijmegen.space.block.sm` | `$nijmegen-container-padding-inline-start` | `var(--nijmegen-container-padding-inline-start)` |
+| `nijmegen.container.padding-inline-end`   | `nijmegen.space.block.sm` | `$nijmegen-container-padding-inline-end`   | `var(--nijmegen-container-padding-inline-end)`   |
 
 ### Default container
 
@@ -206,7 +208,7 @@ The `.nijmegen-margin-inline-auto` class is available for horizontally centering
 
 ## Customization
 
-It is possible to use your onw values based on the previous mentioned design tokens. Most of the design tokens have a CSS variable option for customization but **some tokens can only be customizated by using the Sass variables**. For example, the breakpoints are used in media queries so customization is only possible via loading your design tokens sass file and compile the `layout.scs` file to your custom css file. Use of the css variable option `var()` is not possible because this function can only be used to set a value on a property of an element, [see W3 docs](https://www.w3.org/TR/css-variables-1/#using-variables).
+It is possible to use your onw values based on the previous mentioned design tokens. Most of the design tokens have a CSS variable option for customization but **some tokens can only be customizated by using the Sass variables**. For example, the breakpoints are used in media queries so customization is only possible via loading your design tokens sass file and compile the `layout.scss` file to your custom css file. Use of the css variable option `var()` is not possible because this function can only be used to set a value on a property of an element, [see W3 docs](https://www.w3.org/TR/css-variables-1/#using-variables).
 
 ### Example via Sass variables
 

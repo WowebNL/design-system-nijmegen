@@ -5,8 +5,20 @@ import { basename } from "node:path";
 
 let components = [
   {
-    input: "grid/index.scss",
+    input: "src/grid.scss",
     output: "dist/grid.css",
+  },
+  {
+    input: "src/container.scss",
+    output: "dist/container.css",
+  },
+  {
+    input: "src/spacing.scss",
+    output: "dist/spacing.css",
+  },
+  {
+    input: "src/layout.scss",
+    output: "dist/layout.css",
   },
 ];
 
@@ -29,5 +41,24 @@ components.forEach((component) => {
     ],
   });
 });
+
+config.push({
+  input: "src/layout.scss",
+  output: {
+    file: "dist/layout.min.css",
+    sourcemap: false,
+    format: "esm",
+    compact: true,
+  },
+  plugins: [
+    postcss({
+      extensions: [".css", ".scss"],
+      plugins: [discardDuplicates()],
+      extract: true,
+      minimize: true,
+    }),
+  ],
+});
+
 
 export default config;

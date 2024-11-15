@@ -116,7 +116,7 @@ Auto columns and nesting are also supported, please check the [Bootstrap v5.3 do
 
 ## Spacing
 
-Spacing is responsive wrapper for setting `margin-inline-start`, `margin-inline-end`, `padding-inline-start` and `padding-inline-end` values on elements based on the [Bootstrap v5.3 spacing utility api](https://getbootstrap.com/docs/5.3/utilities/spacing/). The api has generated custom (responsive) classes with the following notation `nijmegen-{property}{side}-{size}`.
+Spacing is a responsive wrapper for setting `margin-inline-start`, `margin-inline-end`, `padding-inline-start` and `padding-inline-end` values on elements based on the [Bootstrap v5.3 spacing utility api](https://getbootstrap.com/docs/5.3/utilities/spacing/). The api has generated custom (responsive) classes with the following notation `nijmegen-{{property}{side}{breakpoint}-{size}`.
 
 **`{property}` options:**
 
@@ -130,6 +130,15 @@ Spacing is responsive wrapper for setting `margin-inline-start`, `margin-inline-
 - `-start`
 - `-end`
 - blank, for using both sides
+
+**`{breakpoint}` options:**
+
+- `-sm`
+- `-md`
+- `-lg`
+- `-xl`
+- `-xxl`
+- blank, used in all viewports
 
 **`{size}` options:**
 

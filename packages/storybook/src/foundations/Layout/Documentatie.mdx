@@ -1,18 +1,22 @@
 import '@gemeentenijmegen/layout-css/dist/layout.css';
+import designTokens from '@gemeentenijmegen/design-tokens/dist/tokens.json';
+import { TokenValue } from '../../../scripts/Tokens';
+import { SpaceTokensTable } from '../../../scripts/components/SpaceTokensTable';
 
 # Layout
+De layout die de gemeente Nijmegen gebruikt is gebasseerd op de [Bootstrap v5.3 layout](https://getbootstrap.com/docs/5.3/layout) met een implementatie van de [NLDS principes voor het gebruik van ruimte](https://nldesignsystem.nl/richtlijnen/stijl/ruimte/).
 
 ## Breakpoints
 De gemeente Nijmegen gebruikt een layout met de volgende 6 breakpoints:
 
 | Naam        | Class infix | Breakpoint| 
 | ----------------- | ----------- | ------------------ | 
-| Extra small       |             | < 576px            | 
-| Small             | sm          | ≥576px             | 
-| Medium            | md          | ≥768px             | 
-| Large             | lg          | ≥992px             | 
-| Extra large       | xl          | ≥1200px            | 
-| Extra extra large | xxl         | ≥1400px            | 
+| Extra small       |             | < <TokenValue token="nijmegen.breakpoint.sm" /> |          
+| Small             | sm          | ≥ <TokenValue token="nijmegen.breakpoint.sm" /> |            
+| Medium            | md          | ≥ <TokenValue token="nijmegen.breakpoint.md" />             | 
+| Large             | lg          | ≥ <TokenValue token="nijmegen.breakpoint.lg" />            | 
+| Extra large       | xl          | ≥ <TokenValue token="nijmegen.breakpoint.xl" />           | 
+| Extra extra large | xxl         | ≥ <TokenValue token="nijmegen.breakpoint.xxl" />           | 
 
 
 ## Containers
@@ -24,14 +28,24 @@ Om de content uit te lijnen op basis van het device of de viewport van de gebrui
 
 | Naam        | Class infix | `max-width` | padding start | padding end |
 | ----------------- | ----------- | ------------------ | ------------------ | ------------------ | 
-| Extra small       |             | 100%          | 0.75rem | 0.75rem|
-| Small             | sm          | 540px             | 0.75rem | 0.75rem|
-| Medium            | md          | 720px             | 0.75rem | 0.75rem|
-| Large             | lg          | 960px             | 0.75rem | 0.75rem|
-| Extra large       | xl          | 	1140px            | 0.75rem | 0.75rem|
-| Extra extra large | xxl         | 	1320px            | 0.75rem | 0.75rem|
+| Extra small       |             | 100%          | <TokenValue token="nijmegen.container.padding-inline.start" /> |  <TokenValue token="nijmegen.container.padding-inline.end" /> |
+| Small             | sm          | 540px             | <TokenValue token="nijmegen.container.padding-inline.start" /> | <TokenValue token="nijmegen.container.padding-inline.end" />|
+| Medium            | md          | 720px             | <TokenValue token="nijmegen.container.padding-inline.start" /> | <TokenValue token="nijmegen.container.padding-inline.end" />|
+| Large             | lg          | 960px             | <TokenValue token="nijmegen.container.padding-inline.start" /> | <TokenValue token="nijmegen.container.padding-inline.end" />|
+| Extra large       | xl          | 	1140px            | <TokenValue token="nijmegen.container.padding-inline.start" /> | <TokenValue token="nijmegen.container.padding-inline.end" />|
+| Extra extra large | xxl         | 	1320px            | <TokenValue token="nijmegen.container.padding-inline.start" /> | <TokenValue token="nijmegen.container.padding-inline.end" />|
 
-<div className="nijmegen-grid">
-    <div className="nijmegen-g-col-6">test</div>
-    <div className="nijmegen-g-col-6">test 2</div>
-</div>
+## Grid
+De gemeente Nijmegen gebruikt een 12 column grid binnen 1 row welke anders kan acteren vanaf de verschillende breakpoints. De columns kennen een gap van <TokenValue token="nijmegen.grid.gap" />.
+
+@todo afbeelding van het grid toevoegen
+
+## Spacing
+Voor de spacing zijn de Inline en Block principes van de [NLDS richtlijnen voor spacing concepten](https://nldesignsystem.nl/richtlijnen/stijl/ruimte/spacing-concepten) geïmplmenteerd.
+
+### Inline
+<SpaceTokensTable orientation="inline" tokens={Object.values(designTokens["nijmegen"]["space"]["inline"])} />
+
+### Block
+<SpaceTokensTable orientation="block" tokens={Object.values(designTokens["nijmegen"]["space"]["block"])} />
+@todo Text spacing toevoegen en Column en Row spacing bespreken

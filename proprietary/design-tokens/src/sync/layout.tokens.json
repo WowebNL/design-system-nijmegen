@@ -30,93 +30,115 @@
             "inline": {
                 "3xs": {
                     "value": "0.125rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small 3"
                 },
                 "2xs": {
                     "value": "0.25rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small 2"
                 },
                 "xs": {
                     "value": "0.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small"
                 },
                 "sm": {
                     "value": "0.75rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Small"
                 },
                 "md": {
                     "value": "1rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Medium"
                 },
                 "lg": {
                     "value": "1.25rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Large"
                 },
                 "xl": {
                     "value": "1.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large"
                 },
                 "2xl": {
                     "value": "2rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 2"
                 },
                 "3xl": {
                     "value": "2.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 3"
                 },
                 "4xl": {
                     "value": "3rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 4"
                 },
                 "5xl": {
                     "value": "4rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 5"
                 }
             },
             "block": {
                 "3xs": {
                     "value": "0.125rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small 3"
                 },
                 "2xs": {
                     "value": "0.25rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small 2"
                 },
                 "xs": {
                     "value": "0.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra small"
                 },
                 "sm": {
                     "value": "0.75rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Small"
                 },
                 "md": {
                     "value": "1rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Medium"
                 },
                 "lg": {
                     "value": "1.25rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Large"
                 },
                 "xl": {
                     "value": "1.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large"
                 },
                 "2xl": {
                     "value": "2rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 2"
                 },
                 "3xl": {
                     "value": "2.5rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 3"
                 },
                 "4xl": {
                     "value": "3rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 4"
                 },
                 "5xl": {
                     "value": "4rem",
-                    "type": "spacing"
+                    "type": "spacing",
+                    "description": "Extra large 5"
                 }
             }
         },

@@ -26,9 +26,9 @@
     "@etchteam/storybook-addon-status": "4.2.4",
     "@gemeentenijmegen/assets": "workspace:*",
     "@gemeentenijmegen/components-css": "workspace:*",
-    "@gemeentenijmegen/layout-css": "workspace:*",
     "@gemeentenijmegen/design-tokens": "workspace:*",
     "@gemeentenijmegen/font": "workspace:*",
+    "@gemeentenijmegen/layout-css": "workspace:*",
     "@gemeentenijmegen/web-components-react": "workspace:*",
     "@gemeentenijmegen/web-components-stencil": "workspace:*",
     "@mdx-js/react": "3.0.1",
@@ -78,6 +78,7 @@
   "dependencies": {
     "@storybook/core": "8.3.4",
     "@tabler/icons-react": "3.20.0",
-    "clsx": "2.1.0"
+    "clsx": "2.1.0",
+    "prop-types": "15.8.1"
   }
 }

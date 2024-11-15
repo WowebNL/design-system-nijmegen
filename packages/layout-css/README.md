@@ -81,9 +81,9 @@ The grid system is an implementation of the [Bootstrap v5.3 CSS Grid](https://ge
 
 ```html
 <div class="nijmegen-grid">
-    <div class="nijmegen-g-col-4>col 1/3</div>
-    <div class="nijmegen-g-col-4>col 2/3</div>
-    <div class="nijmegen-g-col-4>col 3/3</div>
+  <div class="nijmegen-g-col-4">col 1/3</div>
+  <div class="nijmegen-g-col-4">col 2/3</div>
+  <div class="nijmegen-g-col-4">col 3/3</div>
 </div>
 ```
 
@@ -254,7 +254,7 @@ rollup -c
     <!-- or write them in your own "theme" following NL Design System standards -->
     <style>
       .my-theme {
-        --nijmegen-space-inline-md: 12px;
+        --nijmegen-space-inline-md: 0.5rem;
       }
     </style>
   </head>
@@ -263,7 +263,7 @@ rollup -c
       <div class="nijmegen-padding-inline-md">1rem horizontal padding</div>
     </div>
     <div class="my-theme">
-      <div class="nijmegen-padding-inline-md">12px horizontal padding</div>
+      <div class="nijmegen-padding-inline-md">0.5rem horizontal padding</div>
     </div>
   </body>
 </html>

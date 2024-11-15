@@ -1,0 +1,198 @@
+{
+    "nijmegen": {
+        "breakpoint": {
+            "xs": {
+                "value": "0",
+                "type": "spacing"
+            },
+            "sm": {
+                "value": "576px",
+                "type": "spacing"
+            },
+            "md": {
+                "value": "768px",
+                "type": "spacing"
+            },
+            "lg": {
+                "value": "992px",
+                "type": "spacing"
+            },
+            "xl": {
+                "value": "1200px",
+                "type": "spacing"
+            },
+            "xxl": {
+                "value": "1400px",
+                "type": "spacing"
+            }
+        },
+        "space": {
+            "inline": {
+                "3xs": {
+                    "value": "0.125rem",
+                    "type": "spacing",
+                    "description": "Extra small 3"
+                },
+                "2xs": {
+                    "value": "0.25rem",
+                    "type": "spacing",
+                    "description": "Extra small 2"
+                },
+                "xs": {
+                    "value": "0.5rem",
+                    "type": "spacing",
+                    "description": "Extra small"
+                },
+                "sm": {
+                    "value": "0.75rem",
+                    "type": "spacing",
+                    "description": "Small"
+                },
+                "md": {
+                    "value": "1rem",
+                    "type": "spacing",
+                    "description": "Medium"
+                },
+                "lg": {
+                    "value": "1.25rem",
+                    "type": "spacing",
+                    "description": "Large"
+                },
+                "xl": {
+                    "value": "1.5rem",
+                    "type": "spacing",
+                    "description": "Extra large"
+                },
+                "2xl": {
+                    "value": "2rem",
+                    "type": "spacing",
+                    "description": "Extra large 2"
+                },
+                "3xl": {
+                    "value": "2.5rem",
+                    "type": "spacing",
+                    "description": "Extra large 3"
+                },
+                "4xl": {
+                    "value": "3rem",
+                    "type": "spacing",
+                    "description": "Extra large 4"
+                },
+                "5xl": {
+                    "value": "4rem",
+                    "type": "spacing",
+                    "description": "Extra large 5"
+                }
+            },
+            "block": {
+                "3xs": {
+                    "value": "0.125rem",
+                    "type": "spacing",
+                    "description": "Extra small 3"
+                },
+                "2xs": {
+                    "value": "0.25rem",
+                    "type": "spacing",
+                    "description": "Extra small 2"
+                },
+                "xs": {
+                    "value": "0.5rem",
+                    "type": "spacing",
+                    "description": "Extra small"
+                },
+                "sm": {
+                    "value": "0.75rem",
+                    "type": "spacing",
+                    "description": "Small"
+                },
+                "md": {
+                    "value": "1rem",
+                    "type": "spacing",
+                    "description": "Medium"
+                },
+                "lg": {
+                    "value": "1.25rem",
+                    "type": "spacing",
+                    "description": "Large"
+                },
+                "xl": {
+                    "value": "1.5rem",
+                    "type": "spacing",
+                    "description": "Extra large"
+                },
+                "2xl": {
+                    "value": "2rem",
+                    "type": "spacing",
+                    "description": "Extra large 2"
+                },
+                "3xl": {
+                    "value": "2.5rem",
+                    "type": "spacing",
+                    "description": "Extra large 3"
+                },
+                "4xl": {
+                    "value": "3rem",
+                    "type": "spacing",
+                    "description": "Extra large 4"
+                },
+                "5xl": {
+                    "value": "4rem",
+                    "type": "spacing",
+                    "description": "Extra large 5"
+                }
+            }
+        },
+        "container": {
+            "max-width": {
+                "sm": {
+                    "value": "540px",
+                    "type": "spacing"
+                },
+                "md": {
+                    "value": "720px",
+                    "type": "spacing"
+                },
+                "lg": {
+                    "value": "960px",
+                    "type": "spacing"
+                },
+                "xl": {
+                    "value": "1140px",
+                    "type": "spacing"
+                },
+                "xxl": {
+                    "value": "1320px",
+                    "type": "spacing"
+                }
+            },
+            "padding-inline" : {
+                "start": {
+                    "value": "{nijmegen.space.inline.sm}",
+                    "type": "spacing"
+                },
+                "end": {
+                    "value": "{nijmegen.space.inline.sm}",
+                    "type": "spacing"
+                }
+            }
+        },
+        "grid": {
+            "columns": {
+                "value": "12",
+                "type": "other"
+            },
+            "gap": {
+                "value": "1.5rem",
+                "type": "spacing"
+            },
+            "rows": {
+                "value": "1",
+                "type": "other"
+            }
+        },
+        "enable-important-utilities-on-spacing": {
+            "value": "true",
+            "type": "other"
+        }
+    }
+}

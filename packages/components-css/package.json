@@ -7,9 +7,5 @@
   "keywords": [
     "nl-design-system"
   ],
-  "scripts": {
-    "build": "rollup -c ./rollup.config.mjs",
-    "clean": "rimraf dist"
-  },
   "private": true
 }

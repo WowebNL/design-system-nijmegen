@@ -149,18 +149,6 @@
           }
         }
       },
-      "background-color": {
-        "type": "color",
-        "value": "transparent"
-      },
-      "border-color": {
-        "type": "color",
-        "value": "{nijmegen.color.grijs.900}"
-      },
-      "color": {
-        "type": "color",
-        "value": "{nijmegen.color.grijs.900}"
-      },
       "border-radius": {
         "type": "borderRadius",
         "value": "{nijmegen.border-radius.sm}"
@@ -352,6 +340,10 @@
       "min-inline-size": {
         "type": "sizing",
         "value": "{nijmegen.pointer-target.min-size}"
+      },
+      "text-decoration": {
+        "value": "{nijmegen.hover.text-decoration}",
+        "type": "textDecoration"
       }
     }
   }

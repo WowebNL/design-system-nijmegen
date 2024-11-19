@@ -47,7 +47,7 @@
       },
       "button": {
         "font-size": {
-          "value": "{nijmegen.typography.font-size.xl}",
+          "value": "{nijmegen.typography.font-size.md}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -64,7 +64,7 @@
             "value": "{nijmegen.icon.functional.size}"
           },
           "color": {
-            "value": "{nijmegen.color.zwart}",
+            "value": "{nijmegen.color.grijs.500}",
             "type": "color"
           }
         },
@@ -122,7 +122,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{nijmegen.interaction.color}"
+          "value": "{nijmegen.color.grijs.500}"
         },
         "focus": {
           "background-color": {

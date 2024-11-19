@@ -163,11 +163,11 @@
           "value": "{nijmegen.icon.functional.size}"
         },
         "margin-inline": {
-          "value": "{nijmegen.space.inline.beetle}",
+          "value": "{nijmegen.space.inline.xs}",
           "type": "spacing"
         },
         "gap": {
-          "value": "{nijmegen.space.inline.beetle}",
+          "value": "{nijmegen.space.inline.xs}",
           "type": "spacing"
         }
       },
@@ -262,19 +262,19 @@
         "type": "lineHeights"
       },
       "padding-block-end": {
-        "value": "{nijmegen.space.block.snail}",
+        "value": "{nijmegen.space.block.sm}",
         "type": "spacing"
       },
       "padding-block-start": {
-        "value": "{nijmegen.space.block.snail}",
+        "value": "{nijmegen.space.block.sm}",
         "type": "spacing"
       },
       "padding-inline-end": {
-        "value": "{nijmegen.space.inline.mouse}",
+        "value": "{nijmegen.space.inline.md}",
         "type": "spacing"
       },
       "padding-inline-start": {
-        "value": "{nijmegen.space.inline.mouse}",
+        "value": "{nijmegen.space.inline.md}",
         "type": "spacing"
       },
       "disabled": {

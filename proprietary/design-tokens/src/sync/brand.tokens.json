@@ -441,19 +441,23 @@
         },
         "2xl": {
           "value": "32px",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Extra large 2"
         },
         "3xl": {
           "value": "40px",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Extra large 3"
         },
         "4xl": {
           "value": "48px",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Extra large 4"
         },
         "5xl": {
           "value": "64px",
-          "type": "spacing"
+          "type": "spacing", 
+          "description": "Extra large 5"
         }
       },
       "block": {
@@ -504,11 +508,13 @@
         },
         "4xl": {
           "value": "64px",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Extra large 4"
         },
         "5xl": {
           "value": "64px",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Extra large 5"
         }
       },
       "text": {

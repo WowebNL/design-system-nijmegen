@@ -16,11 +16,11 @@
             "type": "spacing"
           },
           "block-start": {
-            "value": "{nijmegen.space.block.rabbit}",
+            "value": "{nijmegen.space.block.xl}",
             "type": "spacing"
           },
           "block-end": {
-            "value": "{nijmegen.space.block.rabbit}",
+            "value": "{nijmegen.space.block.xl}",
             "type": "spacing"
           }
         },
@@ -91,21 +91,21 @@
           },
           "padding": {
             "inline": {
-              "value": "{nijmegen.space.inline.mouse}",
+              "value": "{nijmegen.space.inline.md}",
               "type": "spacing"
             }
           }
         },
         "row": {
           "block-gap": {
-            "value": "{nijmegen.space.block.mouse}",
+            "value": "{nijmegen.space.block.md}",
             "type": "spacing"
           }
         },
         "meta-description": {
           "padding": {
             "inline": {
-              "value": "{nijmegen.space.block.beetle}",
+              "value": "{nijmegen.space.block.xs}",
               "type": "spacing"
             }
           }

@@ -71,7 +71,7 @@
           "value": "{nijmegen.icon.functional.size}"
         },
         "margin-inline": {
-          "value": "{nijmegen.space.inline.ant}",
+          "value": "{nijmegen.space.inline.2xs}",
           "type": "spacing"
         }
       },

@@ -16,16 +16,16 @@
             "value": "{nijmegen.icon.functional.size}"
           },
           "margin-inline": {
-            "value": "{nijmegen.space.inline.beetle}",
+            "value": "{nijmegen.space.inline.xs}",
             "type": "spacing"
           }
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -96,7 +96,7 @@
         }
       },
       "margin-inline": {
-        "value": "{nijmegen.space.inline.beetle}",
+        "value": "{nijmegen.space.inline.xs}",
         "type": "spacing"
       },
       "font-family": {

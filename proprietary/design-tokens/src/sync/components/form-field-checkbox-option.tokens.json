@@ -2,7 +2,7 @@
   "utrecht": {
     "form-field-checkbox-option": {
       "column-gap": {
-        "value": "{nijmegen.space.column.snail}",
+        "value": "{nijmegen.space.column.xs}",
         "type": "spacing"
       }
     }

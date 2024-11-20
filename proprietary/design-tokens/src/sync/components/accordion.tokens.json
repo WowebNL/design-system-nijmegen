@@ -29,25 +29,25 @@
           "value": "{nijmegen.border-width.sm}"
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.rabbit}",
+          "value": "{nijmegen.space.block.xl}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.rabbit}",
+          "value": "{nijmegen.space.block.xl}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{nijmegen.space.inline.mouse}",
+          "value": "{nijmegen.space.inline.md}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{nijmegen.space.inline.mouse}",
+          "value": "{nijmegen.space.inline.md}",
           "type": "spacing"
         }
       },
       "button": {
         "font-size": {
-          "value": "{nijmegen.typography.font-size.xl}",
+          "value": "{nijmegen.typography.font-size.md}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -56,7 +56,7 @@
         },
         "icon": {
           "margin-inline": {
-            "value": "{nijmegen.space.inline.beetle}",
+            "value": "{nijmegen.space.inline.xs}",
             "type": "spacing"
           },
           "size": {
@@ -64,24 +64,24 @@
             "value": "{nijmegen.icon.functional.size}"
           },
           "color": {
-            "value": "{nijmegen.color.zwart}",
+            "value": "{nijmegen.color.grijs.500}",
             "type": "color"
           }
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{nijmegen.space.inline.mouse}",
+          "value": "{nijmegen.space.inline.md}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{nijmegen.space.inline.mouse}",
+          "value": "{nijmegen.space.inline.md}",
           "type": "spacing"
         },
         "hover": {
@@ -122,7 +122,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{nijmegen.interaction.color}"
+          "value": "{nijmegen.color.grijs.500}"
         },
         "focus": {
           "background-color": {

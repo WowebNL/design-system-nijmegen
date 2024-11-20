@@ -19,7 +19,7 @@
           "type": "fontWeights"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "color": {
@@ -50,11 +50,11 @@
         }
       },
       "padding-block-end": {
-        "value": "{nijmegen.space.block.snail}",
+        "value": "{nijmegen.space.block.sm}",
         "type": "spacing"
       },
       "padding-block-start": {
-        "value": "{nijmegen.space.block.snail}",
+        "value": "{nijmegen.space.block.sm}",
         "type": "spacing"
       },
       "padding-inline-end": {

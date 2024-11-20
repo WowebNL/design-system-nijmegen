@@ -7,7 +7,7 @@
           "value": "{nijmegen.icon.functional.size}"
         },
         "margin-inline-end": {
-          "value": "{nijmegen.space.inline.beetle}",
+          "value": "{nijmegen.space.inline.xs}",
           "type": "spacing"
         }
       },

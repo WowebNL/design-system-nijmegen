@@ -12,36 +12,36 @@
         },
         "row": {
           "padding-block-end": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           }
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.ant}",
+          "value": "{nijmegen.space.block.2xs}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         }
       },
@@ -52,36 +52,36 @@
         },
         "row": {
           "padding-block-end": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           }
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.ant}",
+          "value": "{nijmegen.space.block.2xs}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         }
       },
@@ -110,36 +110,36 @@
       "item-action": {
         "row": {
           "padding-block-end": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{nijmegen.space.block.snail}",
+            "value": "{nijmegen.space.block.sm}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{nijmegen.space.inline.snail}",
+            "value": "{nijmegen.space.inline.sm}",
             "type": "spacing"
           }
         },
         "padding-block-end": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{nijmegen.space.block.snail}",
+          "value": "{nijmegen.space.block.sm}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{nijmegen.space.inline.snail}",
+          "value": "{nijmegen.space.inline.sm}",
           "type": "spacing"
         }
       }

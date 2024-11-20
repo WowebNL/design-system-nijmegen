@@ -23,7 +23,7 @@
           "type": "lineHeights"
         },
         "padding": {
-          "value": "{nijmegen.space.block.mouse}",
+          "value": "{nijmegen.space.block.md}",
           "type": "spacing"
         },
         "border-radius": {

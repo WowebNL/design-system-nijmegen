@@ -68,21 +68,21 @@
       "content": {
         "padding": {
           "inline": {
-            "value": "{nijmegen.space.block.rabbit}",
+            "value": "{nijmegen.space.block.xl}",
             "type": "spacing"
           },
           "block-start": {
-            "value": "{nijmegen.space.block.rabbit}",
+            "value": "{nijmegen.space.block.xl}",
             "type": "spacing"
           },
           "block-end": {
-            "value": "{nijmegen.space.block.cat}",
+            "value": "{nijmegen.space.block.2xl}",
             "type": "spacing"
           }
         },
         "row": {
           "block-gap": {
-            "value": "{nijmegen.space.block.mouse}",
+            "value": "{nijmegen.space.block.md}",
             "type": "spacing"
           }
         }

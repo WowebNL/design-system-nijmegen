@@ -413,6 +413,10 @@
             "type": "color",
             "value": "{nijmegen.color.white}"
           }
+        },
+        "font-weight": {
+          "value": "{nijmegen.document.strong.font-weight}",
+          "type": "fontWeights"
         }
       }
     }

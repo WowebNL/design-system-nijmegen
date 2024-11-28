@@ -1,5 +1,5 @@
 import '@gemeentenijmegen/design-tokens/dist/index.css';
-import '@gemeentenijmegen/font/src/index.scss';
+import '@gemeentenijmegen/typography';
 import { defineCustomElements } from '@gemeentenijmegen/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 

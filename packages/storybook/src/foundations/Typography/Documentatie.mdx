@@ -1,31 +1,53 @@
 import '@utrecht/component-library-css/dist/index.css';
 import '@utrecht/component-library-css/dist/html.css';
+import designTokens from '@gemeentenijmegen/design-tokens/dist/tokens.json';
+import { TokenValue } from '../../../scripts/Tokens';
 
 # Typografie
 
 Op de websites van de Gemeente Nijmegen worden de lettertypes Oranda BT en Source Sans Pro gebruikt. Dit helpt bij het georganiseerd presenteren van informatie en vergemakkelijkt het navigeren voor gebruikers. Door het consistent gebruik van kopniveaus begrijpen gebruikers beter hoe de pagina is opgebouwd.
 
 Het Oranda BT-lettertype is ook een essentieel onderdeel van de herkenbaarheid van de Gemeente Nijmegen. Het is belangrijk om bij voorkeur geen andere lettertypen te gebruiken om een consistente uitstraling te behouden.
+      
+<div style={{display: "grid", gridTemplateColumns: "1fr 1fr"}}>
+    <div>
+        ### Sitenamen en koppen
+        <div className="nijmegen-theme utrecht-html">
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-3xl)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)" }}>Oranda BT</span>
 
-## Fonts
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>abcdefghijklmnopqrstuvwxyz (&*%$!?”)</span>\
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
 
-### Sitenamen en koppen
-<div className="nijmegen-theme utrecht-html">
-<p>test</p>
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-3xl)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)" }}>Oranda BT</span>
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>1234567890 (&*%$!?”)</span>
+        </div>
+    </div>
+    <div>
+        ### Subkoppen en content 
+        <div className="nijmegen-theme">
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-3xl)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)" }}>Source Sans Pro</span>
 
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>abcdefghijklmnopqrstuvwxyz (&*%$!?”)</span>\
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>abcdefghijklmnopqrstuvwxyz (&*%$!?”)</span>\
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
 
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-primary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>1234567890 (&*%$!?”)</span>
+        <span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>1234567890 (&*%$!?”)</span>
+        </div>
+    </div>
 </div>
 
-### Subkoppen en content 
-<div className="nijmegen-theme">
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-3xl)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)" }}>Oranda BT</span>
 
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>abcdefghijklmnopqrstuvwxyz (&*%$!?”)</span>\
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span>
+# Stijloverzicht
 
-<span style={{fontFamily: "var(--nijmegen-typography-font-family-secondary)", fontSize: "var( --nijmegen-typography-font-size-md)", color: "var(--nijmegen-color-grijs-800)", fontWeight: "var(--nijmegen-typography-font-weight-bold)"  }}>1234567890 (&*%$!?”)</span>
-</div>
+## Subsites
+| Default font | Fallback stack                                                                                                                                                                         |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oranda BT    | Georgia, Times New Roman, Palatino Linotype, Garamond, Baskerville, Cambria, Didot, Book Antiqua, Constantia, Goudy Old Style, Hoefler Text, Merriweather, Minion Pro, Rockwell, serif |
+
+### MD - XL viewports
+| Element    | Size | Weight | Line height | Example |
+|------------|------|--------|-------------|---------|
+| SITE TITLE |      |        |             |         |
+
+### XS - SM viewports
+| Element    | Size | Weight | Line height | Color | Example |
+|------------|------|--------|-------------|---------| ---------|
+| SITE TITLE | <TokenValue token="nijmegen.typography.font-size.lg" />  <br /> <small>`nijmegen.typography.font-size.lg`</small>  | <TokenValue token="nijmegen.heading.font-weight" />  <br /> <small>`nijmegen.heading.font-weight`</small>  |<TokenValue token="nijmegen.typography.line-height.sm" />  <br /> <small>`nijmegen.typography.line-height.sm`</small> | <TokenValue token="nijmegen.color.donkergroen.500" />  <br /> <small>`nijmegen.color.donkergroen.500`</small>||

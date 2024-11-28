@@ -344,6 +344,80 @@
       "text-decoration": {
         "value": "{nijmegen.hover.text-decoration}",
         "type": "textDecoration"
+      },
+      "default": {
+        "hover": {
+          "background-color": {
+            "type": "color",
+            "value": "{nijmegen.interaction.hover.color}"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.color.white}"
+          }
+        },
+        "background-color": {
+          "type": "color",
+          "value": "{nijmegen.interaction.color}"
+        },
+        "border-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "color": {
+          "type": "color",
+          "value": "{nijmegen.color.white}"
+        },
+        "disabled": {
+          "background-color": {
+            "type": "color",
+            "value": "{nijmegen.color.grijs.200}"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.color.grijs.500}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "value": "{nijmegen.focus.background-color}"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.focus.color}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "type": "color",
+            "value": "{nijmegen.interaction.active.color}"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.color.white}"
+          }
+        },
+        "font-weight": {
+          "value": "{nijmegen.document.strong.font-weight}",
+          "type": "fontWeights"
+        }
       }
     }
   }

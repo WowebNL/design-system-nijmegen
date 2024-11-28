@@ -68,6 +68,16 @@
         "type": "fontWeights"
       }
     },
+    "heading-1": {
+      "color": {
+        "value": "{nijmegen.color.rood.500}",
+        "type": "color"
+      },
+      "font-family": {
+        "value": "{nijmegen.typography.font-family.primary}",
+        "type": "fontFamilies"
+      }
+    },
     "container": {
       "border-color": {
         "value": "{nijmegen.color.grijs.200}",

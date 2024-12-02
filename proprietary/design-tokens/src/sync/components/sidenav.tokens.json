@@ -1,0 +1,94 @@
+{
+  "denhaag": {
+    "sidenav": {
+      "link": {
+        "line-height": {
+          "value": "{nijmegen.document.line-height}",
+          "type": "lineHeights"
+        },
+        "icon": {
+          "size": {
+            "type": "sizing",
+            "value": "{nijmegen.icon.functional.size}"
+          },
+          "margin-inline": {
+            "value": "{nijmegen.space.inline.xs}",
+            "type": "spacing"
+          }
+        },
+        "font-size": {
+          "value": "{nijmegen.document.font-size}",
+          "type": "fontSizes"
+        },
+        "font-family": {
+          "value": "{nijmegen.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "current": {
+          "font-weight": {
+            "value": "{nijmegen.document.strong.font-weight}",
+            "type": "fontWeights"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.document.color}"
+          }
+        },
+        "color": {
+          "type": "color",
+          "value": "{nijmegen.interaction.color}"
+        },
+        "active": {
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.interaction.active.color}"
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "type": "color",
+            "value": "{nijmegen.focus.background-color}"
+          },
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.focus.color}"
+          },
+          "text-decoration": {
+            "value": "none",
+            "type": "textDecoration"
+          }
+        },
+        "hover": {
+          "color": {
+            "type": "color",
+            "value": "{nijmegen.interaction.hover.color}"
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "padding-block-start": {
+          "value": "{nijmegen.space.block.sm}",
+          "type": "spacing"
+        },
+        "padding-block-end": {
+          "value": "{nijmegen.space.block.sm}",
+          "type": "spacing"
+        },
+        "text-decoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      }
+    }
+  }
+}

@@ -23,3 +23,10 @@ components/components.d.ts
 packages/web-components-stencil/loader
 packages/web-components-react/src/react-component-lib/
 packages/web-components-react/src/components.ts
+
+
+# ignore .mdx files
+*.mdx
+
+# ignore design token json files due to end with new line mismatch with Figma Design Token Studio sync
+proprietary/design-tokens/src/sync/

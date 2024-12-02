@@ -1,0 +1,134 @@
+{
+  "nijmegen": {
+    "card-event": {
+      "content": {
+        "padding": {
+          "inline": {
+            "value": "{nijmegen.space.inline.xl}",
+            "type": "spacing"
+          },
+          "block-start": {
+            "value": "{nijmegen.space.block.xl}",
+            "type": "spacing"
+          },
+          "block-end": {
+            "value": "{nijmegen.space.block.2xl}",
+            "type": "spacing"
+          }
+        },
+        "row": {
+          "block-gap": {
+            "value": "{nijmegen.space.block.md}",
+            "type": "spacing"
+          }
+        }
+      },
+      "background-color": {
+        "value": "{nijmegen.color.background-default}",
+        "type": "color"
+      },
+      "title": {
+        "color": {
+          "value": "{nijmegen.color.zwart}",
+          "type": "color"
+        },
+        "hover": {
+          "color": {
+            "value": "{nijmegen.color.groen.700}",
+            "type": "color"
+          }
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.semi-bold}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{utrecht.heading-3.line-height}",
+          "type": "fontHeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.lg}",
+          "type": "fontSizes"
+        }
+      },
+      "date": {
+        "color": {
+          "value": "{nijmegen.color.grijs.500}",
+          "type": "color"
+        },
+        "font-family": {
+          "value": "{nijmegen.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "place": {
+        "color": {
+          "value": "{nijmegen.color.grijs.700}",
+          "type": "color"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "intro-text": {
+        "color": {
+          "value": "{nijmegen.color.grijs.500}",
+          "type": "color"
+        },
+        "font-family": {
+          "value": "{nijmegen.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{nijmegen.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{nijmegen.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "icon": {
+        "color": {
+          "value": "{nijmegen.color.grijs.700}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{nijmegen.color.grijs.200}",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "value": "{nijmegen.border-radius.xs}",
+        "type": "borderRadius"
+      },
+      "font-family": {
+        "value": "{nijmegen.typography.font-family.secondary}",
+        "type": "fontFamilies"
+      }
+    },
+    "card-topic": {
+      "icon": {
+        "size": {
+          "value": "{nijmegen.size.icon.md}",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

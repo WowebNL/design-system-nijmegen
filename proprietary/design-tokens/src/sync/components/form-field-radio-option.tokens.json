@@ -1,0 +1,10 @@
+{
+  "utrecht": {
+    "form-field-radio-option": {
+      "column-gap": {
+        "value": "{nijmegen.space.column.xs}",
+        "type": "spacing"
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@ const config: StorybookConfig = {
   ],
   staticDirs: ['../../../proprietary/assets/src'],
   docs: {
-    autodocs: true,
+    autodocs: 'tag',
   },
   features: {
     buildStoriesJson: true,

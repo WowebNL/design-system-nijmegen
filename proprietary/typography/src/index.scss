@@ -33,6 +33,10 @@
 
 .nijmegen-theme {
   @include utrecht-html-p;
+  /* stylelint-disable-next-line */
+  p.lead {
+    @include utrecht-paragraph--lead;
+  }
   @include utrecht-html-h1;
   @include utrecht-html-h2;
   @include utrecht-html-h3;

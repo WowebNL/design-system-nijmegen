@@ -21,3 +21,7 @@ export const TokenValue = ({ token }) => {
   const formatted = formatToken(token);
   return formatted.value;
 };
+
+export const getTokenByPath = ({ obj, path }) => {
+  return getDeepValue(obj, path);
+};

@@ -403,21 +403,7 @@
         "value": "999px",
         "type": "borderRadius"
       }
-    }
-  },
-  "nijmegen ": {
-    "focus": {
-      "outline-offset": {
-        "value": "0",
-        "type": "focus"
-      },
-      "outline-style": {
-        "value": "dotted",
-        "type": "focus"
-      }
-    }
-  },
-  "Nijmegen": {
+    },
     "breakpoints": {
       "xs": {
         "value": "0-399px",
@@ -483,6 +469,18 @@
       "xl": {
         "value": "32px",
         "type": "dimension"
+      }
+    }
+  },
+  "nijmegen ": {
+    "focus": {
+      "outline-offset": {
+        "value": "0",
+        "type": "focus"
+      },
+      "outline-style": {
+        "value": "dotted",
+        "type": "focus"
       }
     }
   }

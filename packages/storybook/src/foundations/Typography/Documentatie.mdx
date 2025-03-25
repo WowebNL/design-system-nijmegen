@@ -1,10 +1,6 @@
-import '@utrecht/component-library-css/dist/index.css';
-import '@utrecht/component-library-css/dist/html.css';
-import designTokens from '@gemeentenijmegen/design-tokens/dist/tokens.json';
-import { Canvas, Controls, Unstyled } from '@storybook/addon-docs';
-import { HeadingStory } from './Elements/Heading.stories';
-import { ParagraphStory } from './Elements/Paragraph.stories';
-import { TokenValue } from '../../../scripts/Tokens';
+import { Canvas, Controls } from '@storybook/addon-docs';
+import * as HeadingStory from './Elements/Heading.stories';
+import * as ParagraphStory from './Elements/Paragraph.stories';
 import { DesignTokensTable } from '../../../scripts/components/DesignTokensTable';
 
 # Typografie
@@ -42,30 +38,18 @@ Het Oranda BT-lettertype is ook een essentieel onderdeel van de herkenbaarheid v
 
 ---
 
-## Subsites
-@todo, meer info nodig
-
 ## Headings
 Alle html heading, `<h1>` tot en met `<h6>` zijn beschikbaar. 
-<Canvas of={HeadingStory} />
-<Unstyled>
-<HeadingStory level="2" children="test" />
- </Unstyled>
-<Controls of={HeadingStory} />
+<Canvas of={HeadingStory.Default} />
+<Controls of={HeadingStory.Default} />
 
 ## Paragraaf
-<Canvas of={ParagraphStory} />
- 
-<Controls of={ParagraphStory} />
+<Canvas of={ParagraphStory.Default} />
+<Controls of={ParagraphStory.Default} />
 
 ### Design tokens implementatie
-<DesignTokensTable tokenPaths="utrecht.heading-1,utrecht.heading-2"/>
+<DesignTokensTable tokenPaths="utrecht.heading-1,utrecht.heading-2,utrecht.heading-3,utrecht.heading-4,utrecht.heading-5,utrecht.heading-6"/>
 
 | Default font | Fallback stack                                                                                                                                                                         |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Oranda BT <br /> Source Sans Pro    | Georgia, Times New Roman, Palatino Linotype, Garamond, Baskerville, Cambria, Didot, Book Antiqua, Constantia, Goudy Old Style, Hoefler Text, Merriweather, Minion Pro, Rockwell, serif |
-
-
-| Element    | Size | Weight | Line height | Color | Example |
-|------------|------|--------|-------------|---------| ---------|
-| H1 | <TokenValue token="nijmegen.typography.font-size.3xl" />  <br /> <small>`nijmegen.typography.font-size.3xl`</small>  | <TokenValue token="nijmegen.heading.font-weight" />  <br /> <small>`nijmegen.heading.font-weight`</small>  |<TokenValue token="nijmegen.typography.line-height.sm" />  <br /> <small>`nijmegen.typography.line-height.sm`</small> | <TokenValue token="nijmegen.heading-1.color" />  <br /> <small>`nijmegen.heading-1.color`</small>|<h1>The quick brown fox jumps over the lazy dog</h1>|

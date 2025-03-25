@@ -2,7 +2,7 @@
   "source": ["./src/sync/**/tokens.json", "./src/sync/**/*.tokens.json"],
   "platforms": {
     "js": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {
@@ -16,7 +16,7 @@
       ]
     },
     "json": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {
@@ -34,7 +34,7 @@
       ]
     },
     "css": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {
@@ -47,7 +47,7 @@
       ]
     },
     "css-theme": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {
@@ -61,7 +61,7 @@
       ]
     },
     "scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {
@@ -74,7 +74,7 @@
       ]
     },
     "typescript": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4", "size/customPxToRem"],
       "transformGroup": "js",
       "buildPath": "dist/",
       "files": [
@@ -89,7 +89,7 @@
       ]
     },
     "less": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/customPxToRem"],
       "buildPath": "dist/",
       "files": [
         {

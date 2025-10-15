@@ -1,0 +1,6 @@
+import{j as t}from"./jsx-runtime-CKrituN3.js";import{M as i,P as e,b as p}from"./chunk-HLWAVYOI-BY-PDgpj.js";import{H as s}from"./Header.stories-Cu9NDv-C.js";import{useMDXComponents as n}from"./index-DI5IigMn.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./iframe-BLiB09d7.js";import"../sb-preview/runtime.js";import"./react-18-D8cruF67.js";import"./index-BtM5VmRH.js";import"./index-CnWNB3mc.js";import"./extends-CCbyfPlC.js";import"./_getPrototype-nBa_wnor.js";import"./index-ltOY3w3e.js";import"./Header-Dg7oDTlv.js";/* empty css                  */import"./clsx-B-dksMZM.js";import"./server.browser-rAMDWieH.js";import"./MobileMenu-BE_ks4cP.js";import"./index-Uj-N_Xw0.js";import"./index-7bwtWdbn.js";import"./index.min-B5VNBH1Z.js";import"./createReactComponent-D_5DJZVZ.js";import"./IconUser-CHKGFGGR.js";import"./IconExternalLink-DvrFVVe4.js";import"./HtmlTransformer-CIQzRuZl.js";function m(o){const r=Object.assign({h1:"h1"},n(),o.components);return t.jsxs(t.Fragment,{children:[`
+`,`
+`,t.jsx(i,{of:s}),`
+`,t.jsx(r.h1,{id:"header-component-implementation-in-htmlcss",children:"Header Component implementation in HTML/CSS"}),`
+`,t.jsx(e,{}),`
+`,t.jsx(p,{})]})}function T(o={}){const{wrapper:r}=Object.assign({},n(),o.components);return r?t.jsx(r,Object.assign({},o,{children:t.jsx(m,o)})):m(o)}export{T as default};

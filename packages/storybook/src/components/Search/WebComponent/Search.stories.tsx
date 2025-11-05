@@ -3,35 +3,14 @@ import type { StoryContext } from '@storybook/types';
 import prettierBabel from 'prettier/parser-babel';
 import * as prettier from 'prettier/standalone';
 import * as ReactDOMServer from 'react-dom/server';
-import '@gemeentenijmegen/web-components/dist/nijmegen-toolbar-button.js';
+import { argTypes, SearchStoryWebComponent } from '../_Search';
 
-const ToolbarButton = ({ label = '', type = '' }) => {
-  return <nijmegen-toolbar-button type={type}>{label}</nijmegen-toolbar-button>;
-};
-
-/**
- * The toolbar button menu and search options implement JS for toggling multiple `aria-` attributes and is therefore available as web component.
- */
 const meta = {
-  title: 'Components/Toolbar button/Web Component Implementation',
-  id: 'web-component-toolbar-button',
-  component: ToolbarButton,
-  argTypes: {
-    label: {
-      name: 'Content',
-      description: 'Button text',
-    },
-    type: {
-      name: 'Type',
-      description: 'Button type',
-      control: { type: 'select' },
-      options: ['', 'menu', 'search'],
-    },
-  },
-  args: {
-    label: 'Toolbar button',
-    type: '',
-  },
+  title: 'Components/Search/Web Component Implementation',
+  id: 'web-component-search',
+  argTypes: argTypes,
+  component: SearchStoryWebComponent,
+  args: {},
   parameters: {
     status: {
       type: 'BETA',
@@ -58,27 +37,50 @@ const meta = {
       },
     },
   },
-} satisfies Meta<typeof ToolbarButton>;
+} satisfies Meta<typeof SearchStoryWebComponent>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
-
 export const Default: Story = {
+  name: 'Search',
   args: {
-    label: 'Toolbar button',
-    type: '',
-  },
-};
-export const Menu: Story = {
-  args: {
-    label: 'Menu',
-    type: 'menu',
+    placeholder: 'Zoeken',
+    icon: true,
+    disabled: false,
+    dark: false,
+    readOnly: false,
   },
 };
 
-export const Search: Story = {
+export const Disabled: Story = {
+  name: 'Search disabled',
   args: {
-    label: 'Zoeken',
-    type: 'search',
+    placeholder: 'Zoeken',
+    icon: true,
+    disabled: true,
+    dark: false,
+    readOnly: false,
+  },
+};
+
+export const ReadOnly: Story = {
+  name: 'Search read only',
+  args: {
+    placeholder: 'Zoeken',
+    icon: true,
+    disabled: false,
+    dark: false,
+    readOnly: true,
+  },
+};
+
+export const Dark: Story = {
+  name: 'Search dark mode',
+  args: {
+    placeholder: 'Zoeken',
+    icon: true,
+    disabled: false,
+    dark: true,
+    readOnly: false,
   },
 };

@@ -1,4 +1,4 @@
-import style from '@gemeentenijmegen/components-css/menu.scss';
+import style from '@gemeentenijmegen/components-css/header/index.scss';
 import html from './template.html';
 
 class NijmegenHeader extends HTMLElement {

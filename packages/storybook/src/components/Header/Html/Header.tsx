@@ -1,6 +1,7 @@
 import '@gemeentenijmegen/components-css';
 import clsx from 'clsx';
 import { renderToStaticMarkup } from 'react-dom/server';
+import { ListboxStory } from '../../Listbox/_Listbox';
 import { MobileMenuStoryHtml, MobileMenuStoryWebComponent } from '../../Mobile menu/MobileMenu';
 import { SearchStory, SearchStoryWebComponent } from '../../Search/_Search';
 import '@gemeentenijmegen/web-components/dist/nijmegen-header.js';
@@ -650,7 +651,7 @@ export const HeaderStoryWebComponent = ({ state = '', variant = '', account = fa
             </li>
           )}
           {variant === 'default' && (
-            <li className="nijmegen-header-action">
+            <li className="nijmegen-header-action nijmegen-header-action--relative">
               <button
                 className={clsx('nijmegen-header-item', {
                   'nijmegen-header-item--active': state === 'active',
@@ -662,6 +663,18 @@ export const HeaderStoryWebComponent = ({ state = '', variant = '', account = fa
               >
                 Nederlands
               </button>
+
+              <div className="nijmegen-header__panel nijmegen-header__panel--small">
+                <ListboxStory
+                  items={[
+                    { text: 'English (Engels)', href: '#' },
+                    { text: 'Deutsch (Duits)', href: '#' },
+                    { text: 'Français (Frans)', href: '#' },
+                    { text: 'Türkçe (Turks)', href: '#' },
+                    { text: 'العربية (Arabisch)', href: '#' },
+                  ]}
+                />
+              </div>
             </li>
           )}
           {variant !== 'default' && account === true && (
@@ -1017,7 +1030,7 @@ export const HeaderStoryHtml = ({ state = '', expanded = '', variant = '', accou
             </li>
           )}
           {variant === 'default' && (
-            <li className="nijmegen-header-action">
+            <li className="nijmegen-header-action nijmegen-header-action--relative">
               <button
                 className={clsx('nijmegen-header-item', {
                   'nijmegen-header-item--active': state === 'active',
@@ -1029,6 +1042,18 @@ export const HeaderStoryHtml = ({ state = '', expanded = '', variant = '', accou
               >
                 Nederlands
               </button>
+
+              <div className="nijmegen-header__panel nijmegen-header__panel--small">
+                <ListboxStory
+                  items={[
+                    { text: 'English (Engels)', href: '#' },
+                    { text: 'Deutsch (Duits)', href: '#' },
+                    { text: 'Français (Frans)', href: '#' },
+                    { text: 'Türkçe (Turks)', href: '#' },
+                    { text: 'العربية (Arabisch)', href: '#' },
+                  ]}
+                />
+              </div>
             </li>
           )}
           {variant !== 'default' && account === true && (

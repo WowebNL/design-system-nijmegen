@@ -83,6 +83,7 @@ export const IconOnly: Story = {
     children: '',
     appearance: 'Primary',
     iconBeginning: 'Tabler example',
+    ariaLabel: 'Agenda openen',
     iconOnly: true,
   },
   argTypes: {

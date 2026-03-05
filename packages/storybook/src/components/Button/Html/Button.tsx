@@ -55,6 +55,13 @@ export const argTypes = {
       },
     },
   },
+  ariaLabel: {
+    name: 'Aria label',
+    control: 'text',
+    table: {
+      disable: true,
+    },
+  },
   iconOnly: {
     name: 'Icon only',
     control: 'boolean',
@@ -71,6 +78,7 @@ export const defaultArgs = {
   disabled: false,
   iconBeginning: 'None',
   iconEnding: 'None',
+  ariaLabel: '',
   iconOnly: false,
 };
 
@@ -81,7 +89,8 @@ export const ButtonStory = ({
   disabled = defaultArgs.disabled,
   iconBeginning = defaultArgs.iconBeginning,
   iconEnding = defaultArgs.iconEnding,
-  iconOnly = false,
+  ariaLabel = defaultArgs.ariaLabel,
+  iconOnly = defaultArgs.iconOnly,
 }) => {
   return (
     <button
@@ -98,6 +107,7 @@ export const ButtonStory = ({
       })}
       disabled={disabled}
       type="button"
+      {...(ariaLabel && { 'aria-label': ariaLabel })}
     >
       {iconBeginning === 'Tabler example' && (
         <svg

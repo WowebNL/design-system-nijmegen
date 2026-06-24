@@ -1,0 +1,169 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import type { StoryContext } from '@storybook/types';
+import prettierBabel from 'prettier/parser-babel';
+import * as prettier from 'prettier/standalone';
+import * as ReactDOMServer from 'react-dom/server';
+import { argTypes, ProgressListStoryWebComponent } from '../_ProgressList';
+
+const meta = {
+  title: 'Components/Progress list/Web Component Implementation',
+  id: 'web-component-progresslist',
+  argTypes: argTypes,
+  component: ProgressListStoryWebComponent,
+  args: {},
+  parameters: {
+    status: {
+      type: 'BETA',
+    },
+    docs: {
+      source: {
+        transform: (src: string, storyContext: StoryContext<any>): string => {
+          // Ensure valid HTML in the Preview source
+          const render =
+            typeof storyContext.component === 'function'
+              ? storyContext.component
+              : typeof storyContext.component?.render === 'function'
+                ? storyContext.component?.render
+                : null;
+
+          if (render) {
+            return prettier.format(ReactDOMServer.renderToStaticMarkup(render(storyContext.args)), {
+              parser: 'babel',
+              plugins: [prettierBabel],
+            });
+          }
+          return src;
+        },
+      },
+    },
+  },
+} satisfies Meta<typeof ProgressListStoryWebComponent>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+export const Default: Story = {
+  args: {
+    steps: [
+      {
+        heading: 'Component ontwerpen',
+        status: 'checked',
+        subSteps: [
+          {
+            text: 'Atomen van het component zijn geïdentificeerd.',
+            status: 'checked',
+          },
+          {
+            text: 'Stijlkenmerken van elk atoom zijn vastgesteld.',
+            status: 'checked',
+          },
+        ],
+      },
+      {
+        heading: 'Component opbouwen met design tokens',
+        status: 'checked',
+        subSteps: [
+          {
+            text: 'Design tokens zijn aangemaakt.',
+            status: 'checked',
+          },
+          {
+            text: 'Design tokens zijn toegewezen aan de eigenschappen van elk atoom.',
+            status: 'checked',
+          },
+        ],
+      },
+      {
+        heading: 'Component documenteren',
+        status: 'current',
+      },
+      {
+        heading: 'Component beschikbaar stellen',
+        body: 'Het component kan op dit punt worden gebruikt door andere ontwerpers.',
+      },
+    ],
+  },
+};
+
+export const Warning: Story = {
+  name: 'Warning',
+  args: {
+    steps: [
+      {
+        heading: 'Component ontwerpen',
+        status: 'checked',
+        subSteps: [
+          {
+            text: 'Atomen van het component zijn geïdentificeerd.',
+            status: 'checked',
+          },
+          {
+            text: 'Stijlkenmerken van elk atoom zijn vastgesteld.',
+            status: 'checked',
+          },
+        ],
+      },
+      {
+        heading: 'Component opbouwen met design tokens',
+        status: 'warning',
+        subSteps: [
+          {
+            text: 'Design tokens zijn aangemaakt.',
+            status: 'warning',
+          },
+          {
+            text: 'Design tokens zijn toegewezen aan de eigenschappen van elk atoom.',
+          },
+        ],
+      },
+      {
+        heading: 'Component documenteren',
+      },
+      {
+        heading: 'Component beschikbaar stellen',
+        body: 'Het component kan op dit punt worden gebruikt door andere ontwerpers.',
+      },
+    ],
+  },
+};
+
+export const Error: Story = {
+  name: 'Error',
+  args: {
+    steps: [
+      {
+        heading: 'Component ontwerpen',
+        status: 'checked',
+        subSteps: [
+          {
+            text: 'Atomen van het component zijn geïdentificeerd.',
+            status: 'checked',
+          },
+          {
+            text: 'Stijlkenmerken van elk atoom zijn vastgesteld.',
+            status: 'checked',
+          },
+        ],
+      },
+      {
+        heading: 'Component opbouwen met design tokens',
+        status: 'error',
+        subSteps: [
+          {
+            text: 'Design tokens zijn aangemaakt.',
+            status: 'error',
+          },
+          {
+            text: 'Design tokens zijn toegewezen aan de eigenschappen van elk atoom.',
+          },
+        ],
+      },
+      {
+        heading: 'Component documenteren',
+      },
+      {
+        heading: 'Component beschikbaar stellen',
+        body: 'Het component kan op dit punt worden gebruikt door andere ontwerpers.',
+      },
+    ],
+  },
+};

@@ -3,6 +3,15 @@
   color: var(--nijmegen-hero-color, white);
   position: relative;
 
+  &--home {
+    @media (width >= $nijmegen-breakpoint-lg) {
+      display: flex;
+      /* stylelint-disable property-disallowed-list */
+      min-height: var(--nijmegen-hero-home-large-vw-min-block-size, 448px);
+      /* stylelint-enable property-disallowed-list */
+    }
+  }
+
   .utrecht-heading-1,
   .utrecht-heading-2,
   .utrecht-paragraph {
@@ -72,9 +81,6 @@
 
     .nijmegen-hero--home & {
       grid-column-end: 7;
-      /* stylelint-disable property-disallowed-list */
-      min-height: var(--nijmegen-hero-home-large-vw-min-block-size, 448px);
-      /* stylelint-enable property-disallowed-list */
       padding-block-end: var(--nijmegen-hero-home-large-vw-padding-block-end, 4rem);
       padding-block-start: var(--nijmegen-hero-home-large-vw-padding-block-start, 3rem);
       padding-inline-end: var(--nijmegen-hero-home-large-vw-padding-inline-end, 4rem);

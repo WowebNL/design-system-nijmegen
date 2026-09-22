@@ -83,10 +83,12 @@ export const AlertStory = ({
         </div>
       </div>
       {global && (
-        <div className="nijmegen-alert__icon nijmegen-alert__icon-close">
-          <span className="utrecht-icon" role="img" aria-label="Sluiten">
-            <IconX></IconX>
-          </span>
+        <div className="nijmegen-alert__icon">
+          <button className="nijmegen-alert__close">
+            <span className="utrecht-icon" role="img" aria-label="Sluiten">
+              <IconX></IconX>
+            </span>
+          </button>
         </div>
       )}
     </div>

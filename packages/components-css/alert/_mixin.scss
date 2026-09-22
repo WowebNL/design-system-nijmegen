@@ -1,4 +1,8 @@
+@import "~@utrecht/link-css/src/mixin";
+@import "~@utrecht/focus-ring-css/src/mixin";
+
 @mixin nijmegen-alert {
+  align-items: flex-start;
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
   border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
   border-radius: var(--utrecht-alert-border-radius, 0);
@@ -20,6 +24,41 @@
   --utrecht-icon-color: var(--_utrecht-alert-icon-color, var(--utrecht-alert-icon-color));
   --utrecht-icon-size: var(--utrecht-alert-icon-size);
   --utrecht-icon-inset-block-start: var(--utrecht-alert-icon-inset-block-start);
+}
+
+@mixin nijmegen-alert__close {
+  --utrecht-icon-color: var(--_utrecht-alert-icon-color, var(--utrecht-alert-icon-color));
+  --utrecht-icon-size: var(--utrecht-alert-icon-size);
+
+  all: unset;
+  height: var(--utrecht-icon-size); /* stylelint-disable-line property-disallowed-list */
+  width: var(--utrecht-icon-size); /* stylelint-disable-line property-disallowed-list */
+
+  .utrecht-icon {
+    inset-block-start: 0;
+  }
+
+  &:hover,
+  &.nijmegen-alert__close--hover {
+    --utrecht-icon-color: var(--utrecht-heading-4-color);
+
+    cursor: pointer;
+  }
+
+  &:focus,
+  &.nijmegen-alert__close--focus {
+    @include utrecht-focus;
+
+    --utrecht-icon-color: var(--utrecht-heading-4-color);
+  }
+
+  &:focus-visible,
+  &.nijmegen-alert__close--focus {
+    @include utrecht-focus;
+    @include utrecht-focus-ring;
+
+    --utrecht-icon-color: var(--utrecht-heading-4-color);
+  }
 }
 
 @mixin nijmegen-alert__content {

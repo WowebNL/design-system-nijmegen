@@ -6,11 +6,10 @@
 
 .nijmegen-alert__icon {
   @include nijmegen-alert__icon;
+}
 
-  &-close {
-    cursor: pointer;
-    margin-right: -1; /* stylelint-disable-line property-disallowed-list */
-  }
+.nijmegen-alert__close {
+  @include nijmegen-alert__close;
 }
 
 .nijmegen-alert__content {

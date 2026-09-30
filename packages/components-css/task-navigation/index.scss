@@ -112,4 +112,6 @@
 .nijmegen-task-navigation--focus-visible,
 .nijmegen-task-navigation:focus-visible {
   @include utrecht-focus-ring;
+
+  border: none;
 }
